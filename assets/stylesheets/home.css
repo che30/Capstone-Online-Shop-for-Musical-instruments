@@ -1,0 +1,201 @@
+ 
+   @font-face {
+    font-family: gotham-bold;
+    src: url(/assets/fonts/GothamBold.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: gotham-light;
+    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+  }
+  @font-face {
+    font-family: helvetica-light;
+    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+  }
+  @font-face {
+    font-family: helvetica-medium;
+    src: url(/assets/fonts/HelveticaNeue-Medium.ttf;
+  }
+
+  @font-face {
+    font-family: helvetica-bold;
+    src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
+  }
+  body {
+    font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  
+  }
+
+   .navbar {
+    background-color: #080707;
+  }
+  
+  .home-icon {
+    background: #d35266;
+  }
+  .home {
+    color: #d35266;
+  }
+.fa-music{
+font-size: 24px;
+ 
+}
+.next-prev a {
+  color: #d35266;
+}
+.background-grey {
+  background-color: rgb(245, 231, 231);
+}
+.rounded-prev {
+  bottom: 120px;
+  left: -10%;
+  border-radius: 15px;
+}
+.all-instruments,.fa-home,.fa-music{
+  color: #d35266;
+}
+  .color-grey {
+    background-color: rgb(104, 101, 101);
+  }
+  .text-grey {
+    color: rgb(104, 101, 101);
+  }
+ 
+  input::placeholder{
+    background-color: white;
+  }
+  /* MAIN-SECTION */
+  .background-color {
+    background-color: #d35266;
+  }
+  .relative {
+    position: relative;
+  }
+  .slideshow-menu{
+    left: 5%;
+ 
+  }
+  .gliding-menu {
+    background-color: #d35266; 
+    width: 100%;
+  }
+  .cart{
+    /* width: 500px; */
+  }
+  .music-icon-bottom {
+    font-size: 100px;
+  }
+  
+  .input-properties-1{
+    width: 100%;
+    border: 5px solid white;
+  }
+  .input-properties-2 { 
+    border: 5px solid white;
+    width: 100px;
+  }
+  #cars {
+    padding-top: 10px;
+    border: 5px solid white;
+  }
+  .border-red {
+    border: 2px solid #d35266
+  }
+  
+  .music-icon-2{
+  color: white;
+  }
+  .width-100 {
+    width: 100%;
+  }
+.search-btn {
+  height: 45px;
+}
+/* SECTION HOT-ADS */
+
+.next-prev{
+  top: 180px;
+  left: 90%;
+}
+.next-prev-width{
+  width: 40px;
+}
+.background-black {
+  background-color: #383838;
+}
+.border-left {
+border-radius: 2px 0 0 2px;
+}
+.border-right {
+  border-radius: 0 2px 2px 0;
+  border-left: 3px solid #8a3945;
+}
+/*Discount-instruments*/
+.border-tb-solid{
+  border-bottom: 1px solid rgb(168, 164, 164);
+}
+.border-t{
+  border-top: 1px solid rgb(168, 164, 164);
+}
+.background-grey-2 {
+  background-color: #f5f5f5
+}
+/* SECTION PLUGINS */
+.fixed-height-1 {
+  height: 170px;
+}
+.drop-down {
+  display: inline-block;
+}
+.drop-down-content {
+  display: none;
+  right: 500px; 
+  bottom: 100px;
+  z-index: 1;
+}
+.drop-down-content  a{
+  color: black;
+  padding: 12px 16px; 
+   text-decoration: none; 
+  display: block;
+}
+.drop-down-content a:hover {
+  background-color: #ddd;
+}
+.drop-down:hover .drop-down-content {display: block;}
+.drop-down:hover .article-button {background-color: #7a7475;}
+  
+  @media  (max-width:567px)
+  {
+    .nav-list-1 {
+      display: flex;
+      width: 200px
+      
+    }
+    .navbar {
+      display: flex; 
+      align-content: center;
+      align-items: center;
+    
+    }
+  
+    .all-instruments {
+      display: none;
+    }
+    
+  }
+
+
+  @media  (max-width: 768px){
+    
+    .all-instruments{
+      display: none;
+    }  
+
+  }
+  @media (min-width: 1024px)
+  {
+    .nav-list-1 {
+      width: 400px;
+    }
+  }
