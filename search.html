@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <title>Online shop for musical  instruments</title>
+  </head>
+  <body>
+  <header>
+   <nav class="">
+    <div class="navbar navbar-expand-lg navbar-expand-expand-md navbar-expand-sm  nav-top justify-content-between align-content-center ">
+      <ul class="list-unstyled nav-list-1  d-flex justify-content-between align-items-center">
+       <li class="music-icon same-width pr-md-3 "><i class='fas fa-music'></i></li>
+       <li ><a class="music text-white" href="#">MUSIC</a></li>
+       <li class="nav-top-left pl-2 all-instruments d-none d-lg-block  "><i class="fa fa-th-list same-width"></i></li>
+       <li  class=" text-decoration-none d-none d-lg-block text-white pl-md-2"><a class="text-white"  href="#">All instruments</a></li>
+       <li class="nav-top-left pl-2 "><i class="fa fa-home "></i></li>
+       <li><a class="pl-2 home text-white color-red" href="#">HOME</a></li>
+      </ul>
+ 
+  
+     <div class=" nav-bottom d-flex align-items-center align-content-center align-items-baseline ">
+      <ul class="list-unstyled d-flex  last-list ">
+        <li class="pr-2"  ><a href="#"><ion-icon class="same-width avatar color-grey text-white" name="person-outline"></ion-icon></a></li>
+        <li class=""><a class="text-grey " href="#">LOGIN </a></li>
+      </ul>
+    </div>
+    </div>
+   
+      
+</nav>
+  </header>
+  <main >
+    <section class="container-fluid gliding-menu pt-5 ">
+      <div class="container-fluid">
+        <div class="row  ">
+         
+          <div class="col-12   d-flex flex-column align-content-center align-items-center">
+            <h1 class="text-white font-gotham-bold">YOUR MUSIC SHOP</h1>
+    
+   
+           <p class="text-white font-gotham-light">buying and selling couldn't be simpler thn this</p>
+        </div>
+      </div>
+      <div class="row  pb-5 mb-5 ml-auto">
+
+              <div class="col-lg-4 col-sm-12 border-red bg-white py-2 pt-1">
+                <form action="./search.html" class="bg-white  form-2-pd">
+                  <label class="color-helvetica-grey font-helvetica-light" for="cars">All categories</label>
+                <select name="instruments"  >
+                  <option class="color-helvetica-grey font-helvetica-medium d-none" value="Guitar" >Guitar</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
+                </select>
+                </form>
+               </div>
+               <div class="col-lg-3 col-sm-12 border-red bg-white">
+                <form action="./search.html"  class="bg-white py-1">
+                  <input type="text" class="input-properties-1" placeholder="what are you searching for?">
+                </form>
+              </div>
+              <div class="col-lg-3 col-sm-12 border-red bg-white">
+                <form action="./search.html" class="bg-white py-1 m-auto" method="GET">
+                  <input type="text" placeholder="country" class="input-properties-2">
+                </form>
+              </div>
+              <div class="col-2">
+                
+                  <button type="submit" class="search-btn background-black text-white  font-helvetica-light color-helvetica-grey ">search</button>
+                 
+              </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <section class="background-grey">
+    <section class="container search-results background-grey">
+      <div class="row">
+        <div class="col-3 ">
+          <h6 class="gotham-bold">Type</h6>
+          <form action="/action_page.php">
+            <input type="checkbox"  name="Type" value=" USED">
+            <label for="used" class="pr-4 helvetica-medium"> used</label>
+            <input type="checkbox"  name="new" value="new">
+            <label for="new"  class="helvetica-medium"> New</label>
+          </form>
+          <h6 class="helvetica-medium">category</h6>
+          <form action="/action_page.php">
+            <input type="checkbox"  name="Type" value=" USED">
+            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox"  name="new" value="new">
+            <label for="new" class="helvetica-medium"> New</label><br>
+            <input type="checkbox"  name="company" value="company">
+            <label for="new" class="helvetica-medium">company</label><br>
+          </form>
+          <h6>category</h6>
+          <form action="/action_page.php">
+            <input type="checkbox"  name="Type" value=" USED">
+            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox"  name="new" value="new">
+            <label for="new" class="helvetica-medium"> New</label><br>
+            <input type="checkbox"  name="company" value="company">
+            <label for="new" class="helvetica-medium">company</label><br>
+          </form>
+          <h6 class="gotham-bold">category</h6>
+          <form action="/action_page.php">
+            <input type="checkbox"  name="Type" value=" USED">
+            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox"  name="new" value="new">
+            <label for="new" class="helvetica-medium"> New</label><br>
+            <input type="checkbox"  name="company" value="company">
+            <label for="new" class="helvetica-medium">company</label><br>
+          </form>
+        </div>
+        <div class="col-8 ">
+          <div class="row">
+         <div class="row">
+          <div class="col-12">
+            <h6>About 60 results correspond to your search  </h6>
+          </div>
+         </div>
+         <div class="row">
+           <div class="col-4">
+            <div class="relative next-prev background-black next-prev-width next-prev pl-2">
+              <a href="#" class="previous color-red">&laquo;</a>
+              <a href="#" class="next color-red">&raquo;</a>
+             </div>
+             <img class="figure-img img-fluid" src="/assets/images/Saxophone-Free-Download-PNG.png" alt="saxophone">
+         </div>
+         <div class="col-8 d-flex flex-column">
+           <div class="">
+            <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          
+           <div>
+            <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+           </div>
+           <div class="helvetica medium">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         </div>
+         <p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+          <div class="d-flex justify-content-between">
+            <div>
+          <span>25 oct 2020</span>
+            </div>
+           <div class="d-flex">
+            <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+              $80
+            </div>
+            <div class="price-tag background-color-red text-white font-gotham-light pl-4 py-2">
+                order
+            </div>
+           </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  </main>
+ 
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

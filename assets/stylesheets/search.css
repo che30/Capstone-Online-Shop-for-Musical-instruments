@@ -1,4 +1,4 @@
-
+ 
    @font-face {
     font-family: gotham-bold;
     src: url(/assets/fonts/GothamBold.ttf);
@@ -21,43 +21,52 @@
     font-family: helvetica-bold;
     src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
   }
-  .font-gotham-light {
+  .gotham-light {
     font-family: gotham-light;
   }
-  .font-gotham-bold {
+  .gotham-bold {
     font-weight: gotham-bold;
   }
-  .font-helvetica-light {
+  .helvetica-light {
     font-family: helvetica-light;
   }
-  .font-helvetica-medium {
+  .helvetica-medium {
     font-family:helvetica-medium;
   }
-  .font-helvetica-bold {
+  .helvetica-bold {
     font-family:helvetica-medium;
   }
   body {
     font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
   
   }
-
+  
    .navbar {
     background-color: #080707;
   }
-  
+  .gliding-menu {
+    background-image:
+    linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%),
+    url("/assets/images/music_logo.jpg");
+  /* background-size: 10%; */
+  background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+  }
   .home-icon {
     background: #d35266;
   }
 
   .color-red {
-    color: #d35266;
+     color: #d35266;  
   }
 .fa-music{
 font-size: 24px;
  
 }
 .background-grey {
-  background-color: rgb(245, 231, 231);
+  background-color: #f2f2f2;
 }
 .rounded-prev {
   bottom: 120px;
@@ -78,4 +87,90 @@ font-size: 24px;
     background-color: white;
     color: #888888;
     font-family: helvetica-light;
+  }
+  /* MAIN-SECTION */
+  .background-color-red {
+    background-color: #d35266;
+  }
+  .relative {
+    position: relative;
+  }
+  .input-properties-1{
+    width: 100%;
+    border: 5px solid white;
+  }
+  .input-properties-2 { 
+    border: 5px solid white;
+    width: 100px;
+  }
+  #cars {
+    padding-top: 10px;
+    border: 5px solid white;
+  }
+  .border-red {
+    border: 2px solid #d35266
+  }
+  
+  .width-100 {
+    width: 100%;
+  }
+.search-btn {
+  height: 45px;
+}
+
+.price-tag {
+  width: 80px;
+  border-radius: 8px;
+}
+.color-helvetica-grey {
+color: #888888;
+}
+.color-helvetica-black {
+  color: #383838;
+}
+.next-prev{
+  top: 270px;
+  left: 90%;
+}
+.next-prev-width{
+  width: 40px;
+}
+.background-black {
+  background-color: #383838;
+}
+.border-red {
+  border: 2px solid #d35266;
+}
+
+  @media  (max-width:567px)
+  {
+    .nav-list-1 {
+      display: flex;
+      width: 200px
+      
+    }
+    .navbar {
+      display: flex; 
+      align-content: center;
+      align-items: center;
+    
+    }
+  
+    .all-instruments {
+      display: none;
+    }
+   
+
+  @media  (max-width: 768px){
+    
+    .all-instruments{
+      display: none;
+    }  
+
+  }
+  @media (min-width: 1024px)
+  {
+    .nav-list-1 {
+      width: 400px;
+    }
   }

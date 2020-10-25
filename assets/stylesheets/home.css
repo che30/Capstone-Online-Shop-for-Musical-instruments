@@ -90,15 +90,20 @@ font-size: 24px;
     left: 5%;
  
   }
-  .gliding-menu { 
-    width: 100%;
+  .gliding-menu {
+    background-image:
+    linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%),
+    url("/assets/images/music_logo.jpg");
+
+  background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+width: 100%;
+
   }
-  .cart{
-    /* width: 500px; */
-  }
-  .music-icon-bottom {
+  /* .music-icon-bottom {
     font-size: 100px;
-  }
+  } */
   
   .input-properties-1{
     width: 100%;
@@ -126,6 +131,11 @@ font-size: 24px;
   height: 45px;
 }
 /* SECTION HOT-ADS */
+.hot-ads {
+  
+ padding-left: 10%;
+ padding-right: 10%;
+}
 .Discount-instrumnts {
   z-index: 1;
 }
@@ -187,8 +197,8 @@ border-radius: 2px 0 0 2px;
 .drop-down:hover .drop-down-content {display: block;}
 .drop-down:hover .article-button {background-color: #7a7475;}
   /* PIANOS ONLY */
-  .center-content {
-    /* width: 99%; */
+  .center-content {padding-left: 10%;
+margin-right: auto;
   }
   @media  (max-width:567px)
   {
@@ -210,6 +220,9 @@ border-radius: 2px 0 0 2px;
     .center-content-sm {
       width: 90%;
     } 
+    /* .center-content {padding-left: 20%;
+      margin-right: auto;
+        } */
   }
 
 
