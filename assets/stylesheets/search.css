@@ -48,7 +48,6 @@
     background-image:
     linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%),
     url("/assets/images/music_logo.jpg");
-  /* background-size: 10%; */
   background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
@@ -141,7 +140,18 @@ color: #888888;
 .border-red {
   border: 2px solid #d35266;
 }
-
+.bt-g {
+border-top: 1px solid 1px solid rgb(168, 164, 164);
+}
+.br-g {
+  border-right: 1px solid rgb(168, 164, 164);
+}
+.bb-g {
+  border-bottom: 1px solid rgb(168, 164, 164);
+}
+.previous,.next{
+  width: 20px;
+}
   @media  (max-width:567px)
   {
     .nav-list-1 {
