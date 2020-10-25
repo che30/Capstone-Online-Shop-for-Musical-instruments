@@ -17,12 +17,12 @@
    <nav class="">
     <div class="navbar navbar-expand-lg navbar-expand-expand-md navbar-expand-sm  nav-top justify-content-between align-content-center ">
       <ul class="list-unstyled nav-list-1  d-flex justify-content-between align-items-center">
-       <li class="music-icon same-width "><i class='fas fa-music'></i></li>
-       <li><a class="music text-white" href="#">MUSIC</a></li>
+       <li class="music-icon same-width pr-md-3 "><i class='fas fa-music'></i></li>
+       <li ><a class="music text-white" href="#">MUSIC</a></li>
        <li class="nav-top-left pl-2 all-instruments d-none d-lg-block  "><i class="fa fa-th-list same-width"></i></li>
-       <li  class=" text-decoration-none d-none d-lg-block text-white"><a class="text-white"  href="#">All instruments</a></li>
+       <li  class=" text-decoration-none d-none d-lg-block text-white pl-md-2"><a class="text-white"  href="#">All instruments</a></li>
        <li class="nav-top-left pl-2 "><i class="fa fa-home "></i></li>
-       <li><a class="pl-2 home text-white" href="#">HOME</a></li>
+       <li><a class="pl-2 home text-white color-red" href="#">HOME</a></li>
       </ul>
  
   
@@ -38,92 +38,104 @@
 </nav>
   </header>
   <main >
-    <div class="container-fluid gliding-menu pt-5 ">
+    <section class="container-fluid gliding-menu pt-5 background-color-red">
       <div class="container-fluid">
         <div class="row  ">
+         
           <div class="col-12   d-flex flex-column align-content-center align-items-center">
-            <h1 class="text-white">YOUR MUSIC SHOP</h1>
+            <h1 class="text-white font-gotham-bold">YOUR MUSIC SHOP</h1>
     
    
-           <p class="text-white">buying and selling couldn't be simpler thn this</p>
+           <p class="text-white font-gotham-light">buying and selling couldn't be simpler thn this</p>
         </div>
       </div>
-      <div class="row no-gutters pb-5 ml-lg-5 ">
-        <div class="col-lg-4 col-sm-12 border-red">
-         <form action="post" class="bg-white  form-2-pd">
-           <label for="cars">All categories</label>
-         <select name="cars" id="cars" >
-           <option value="Guitar">Guitar</option>
-           <option value="Piano">piano</option>
-           <option value="violin">violin</option>
-           <option value="saxophone">saxophone</option>
-         </select>
-         </form>
+      <div class="row  ">
+        <div class="col-10">
+            <div class="row no-gutters pb-5 ml-lg-5">
+              <div class="col-lg-4 col-sm-12 border-red">
+                <form action="post" class="bg-white  form-2-pd">
+                  <label class="color-helvetica-grey font-helvetica-light" for="cars">All categories</label>
+                <select name="cars" id="cars" >
+                  <option class="color-helvetica-grey" value="Guitar">Guitar</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
+                  <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
+                </select>
+                </form>
+               </div>
+               <div class="col-lg-4 col-sm-12 border-red">
+                <form action="post"  class="bg-white py-1">
+                  <input type="text" class="input-properties-1" placeholder="what are you searching for?">
+                </form>
+              </div>
+              <div class="col-lg-4 col-sm-12 border-red">
+                <form action="post" class="bg-white py-1 m-auto">
+                  <input type="text" placeholder="country" class="input-properties-2">
+                </form>
+              </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-sm-12 border-red">
-          <form action="post"  class="bg-white py-1">
-            <input type="text" class="input-properties-1" placeholder="what are you searching for?">
-          </form>
+        <div class="col-lg-2 col-sm-12 col-md-2 pl-sm-0 ml-sm-0">
+          <div class="col-5 mt-auto mb-auto">
+            <button type="submit" class="search-btn background-black text-white  font-helvetica-light color-helvetica-grey ">search</button>
+           </div>
         </div>
-        <div class="col-lg-3 col-sm-12 border-red">
-          <form action="post" class="bg-white py-1 m-auto">
-            <input type="text" placeholder="country" class="input-properties-2">
-          </form>
-        </div>
-        <div class="col-lg-2  mt-auto mb-auto">
-         <button type="button bg-grey text-white my-2" class="search-btn">search</button>
-        </div>
+       
+        
+      
+        
       </div>
-    </div> 
-   </div>
-   <section class=" hot-ads bg-white pb-5">
+  </section>
+   <section class=" hot-ads  pb-5   center-content ml-auto mr-auto">
    
     <div class="container py-2">
       <div class="row">
         <div class="col-7">
-          <h6>Hot ads</h6>
+          <h6 class="font-helvetica-medium  color-helvetica-grey">Hot ads</h6>
         </div>
       </div>
     </div> 
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 absolute grid">
-            <div class="relative next-prev background-black next-prev-width next-prev">
-              <a class="prev color-red " >&#10094;</a>
-              <a class="next color-red">&#10095;</a>
+          <div class="col-lg-4 col-md-4 col-sm-12 absolute">
+            <div class="relative next-prev background-black next-prev-width next-prev pl-2">
+              <a href="#" class="previous color-red">&laquo;</a>
+              <a href="#" class="next color-red">&raquo;</a>
              </div>
             <img src="/assets/images/featured.jpg" class="figure-img img-fluid" alt="woofer">
            <div class="next-prev-width background-grey relative rounded-prev pl-3">
-            <a href="#" class="previous">&laquo; </a>
+            <a href="#" class="previous color-red">&laquo; </a>
            </div>
           </div>
           <div class="col-lg-8 col-md-8 col-12">
             <div class="container-fluid">
             <div class="row">
               <div class="col-lg-4 col-sm-12">
-                All variety
+                <h6 class="color-red font-gotham-bold">  All variety</h6>
               </div>
             </div>
             <div class="container-fluid"></div>
               <div class="row">
                 <div class="col-12 ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  <p class="font-helvetica-medium  color-helvetica-grey">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   Tenetur, culpa molestiae eius optio minima excepturi, sit nesc
                   iunt ducimus quod modi ex aperiam deserunt
+                  </p> 
                 </div>
               </div>
             <div class="row">
               <div class="col-7">
-                <blockquote>
+                <blockquote class="font-helvetica-light  color-helvetica-grey">
                   by che nsoh
                 </blockquote>
               </div>
             </div>
             <div class="row  ">
              <div class="col-6 d-flex  ">
-              <div class="py-1 border-left background-color px-3 pr-3 mr-0">
+              <div class="py-1 border-left background-color-red px-3 pr-3 mr-0">
                 <span class="text-white">$50</span>
               </div>
-               <div class="d-inline-flex px-4 py-1 border-right background-color ml-0">
+               <div class="d-inline-flex px-4 py-1 border-right background-color-red ml-0">
                 <div class="div ">
                   <span class="text-white"><i class="fa fa-shopping-cart"></i></span>
                  </div>
@@ -143,31 +155,37 @@
     
    </section>
    <!-- DISCOUT INSTRUMENTS -->
-    <section class=" Discount-instruments pt-3  background-grey-2 ">
-      <div class="container-fluid">
-      <article class=" section-summary ">
-        <div class="row border-t border-tb-solid">
-          <div class="col-12">
-            <h6>Keybords guitars pianos etc</h6>
+    <section class="background-grey-2 Discount-instruments  border-t pt-3 center-content ml-auto mr-auto ">
+      <div class="container-fluid ml-5 background-grey-2">
+    <div class="row  center-content-sm ml-auto mr-auto ">
+        <div class="row ">
+          <article class=" section-summary ">
+          <div class="col-12 py-3 ">
+            <h6 class="color-helvetica-black font-gotham-bold">Keybords guitars pianos etc</h6>
           </div>
+        </article>
         </div>
-      </article>
+      
         <div class="row ">
           <div class="row heading">
-            <div class="col-lg-12 col-md-12">
-          <h5>  Recommnded instruments</h5>
-            </div>
+         
           </div>
-          <div class="row">
-              <div class="col-lg-3 col-6 col-6">
+          <div class="row border-t background-grey-2 pb-5">
+            <div class="col-lg-12 col-md-12 py-3">
+              <h5 class="color-helvetica-black font-gotham-bold">  Recommnded instruments</h5>
+                </div>
+              <div class="col-lg-2 col-5 bg-white">
                 <article>
                   <img class="width-100 fixed-height-1" src="/assets/images/brown-guitar.jpg" alt="guitars">
-         <div class="row">
+                  <div class="next-prev-width background-grey relative rounded-prev pl-3">
+                    <a href="#" class="previous color-red">&laquo; </a>
+                   </div>
+                  <div class="row">
            <div class="col-12 ">
             <div class="row">
               <div class="col-12">
-                <h6> Acousic guitarships from CMR</h6>
-            <p> brand new </p>
+                <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
             <p>FRom cameroon Bafoussam</p>
               </div>
             </div>
@@ -185,7 +203,7 @@
                       </div> 
                     </div>
                     <div>
-                      <span class="article-price text-red font-weight-bold">40$</span>
+                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                     </div>
                   </div>
                  </div>
@@ -198,14 +216,14 @@
                 </article>
              
               </div> 
-             <div class="col-lg-3 col-6 col-6">
+             <div class="col-lg-2 col-5 bg-white ml-3">
                <img class="width-100 fixed-height-1" src="/assets/images/piano.jpg" alt="piano">
                <div class="row">
                 <div class="col-12 ">
                  <div class="row">
                    <div class="col-12">
-                     <h6> Acousic guitarships from CMR</h6>
-                 <p> brand new </p>
+                     <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                 <p class="color-red">  brand new </p>
                  <p>FRom cameroon Bafoussam</p>
                    </div>
                  </div>
@@ -223,7 +241,7 @@
                            </div> 
                          </div>
                          <div>
-                           <span class="article-price text-red font-weight-bold">40$</span>
+                           <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                          </div>
                        </div>
                       </div>
@@ -234,14 +252,14 @@
                 
               </div>
               </div>   
-            <div class="col-lg-3 col-6 col-6">
+            <div class="col-lg-2 col-5 bg-white ml-3">
              <img class="width-100 fixed-height-1" src="/assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe">
              <div class="row">
               <div class="col-12 ">
                <div class="row">
                  <div class="col-12">
-                   <h6> Acousic guitarships from CMR</h6>
-               <p> brand new </p>
+                   <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+               <p class="font-gotham-bold color-red"> brand new </p>
                <p>FRom cameroon Bafoussam</p>
                  </div>
                </div>
@@ -259,7 +277,7 @@
                          </div> 
                        </div>
                        <div>
-                         <span class="article-price text-red font-weight-bold">40$</span>
+                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                        </div>
                      </div>
                     </div>
@@ -270,14 +288,14 @@
               
             </div>
             </div> 
-          <div class="col-lg-3 col-6 col-6 ">
+          <div class="col-lg-2 col-5 bg-white ml-3">
            <img class="width-100 fixed-height-1" src="/assets/images/mic.jpg" alt="microphone">
            <div class="row">
             <div class="col-12 ">
              <div class="row">
                <div class="col-12">
-                 <h6> Acousic guitarships from CMR</h6>
-             <p> brand new </p>
+                 <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                 <p class="font-gotham-bold color-red"> brand new </p>
              <p>FRom cameroon Bafoussam</p>
                </div>
              </div>
@@ -295,7 +313,7 @@
                        </div> 
                      </div>
                      <div>
-                       <span class="article-price text-red font-weight-bold">40$</span>
+                       <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                      </div>
                    </div>
                   </div>
@@ -308,35 +326,40 @@
           </div>
           </div>
      </div> 
+    </div>
       </div>  
    
     </section>
     <!-- PLUGINS ONLY -->
-    <section class="plugins pt-3  background-grey-2">
-      <div class="container-fluid">
-        <article class=" section-summary ">
-          <div class="row border-t border-tb-solid">
-            <div class="col-12">
+    <section class="background-grey-2 plugins pt-3 border-t  background-grey-2 ">
+      <div class="container ">
+        <div class="row center-content-sm ml-auto mr-auto">
+          <div class="row  ">
+            <article class=" section-summary ">
+            <div class="col-12 py-3">
               <h6> Digital plugins</h6>
             </div>
+          </article>
           </div>
-        </article>
-        <div class="row ">
+        <div class="row pb-5 border-t border-tb-solid ">
           <div class="row heading">
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-12 py-3">
           <h5>  Recommnded instruments</h5>
             </div>
           </div>
-          <div class="row">
-              <div class="col-lg-3 col-6 col-6">
+          <div class="row  center-content ml-auto mr-auto">
+              <div class="col-lg-2 col-5 bg-white">
                 <article>
                   <img class="width-100 fixed-height-1" src="/assets/images/brown-guitar.jpg" alt="guitars">
-         <div class="row">
+                  <div class="next-prev-width background-grey relative rounded-prev pl-3">
+                    <a href="#" class="previous color-red">&laquo; </a>
+                   </div>
+                  <div class="row">
            <div class="col-12 ">
             <div class="row">
               <div class="col-12">
-                <h6> Acousic guitarships from CMR</h6>
-            <p> brand new </p>
+                <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                <p class="font-gotham-bold color-red"> brand new </p>
             <p>FRom cameroon Bafoussam</p>
               </div>
             </div>
@@ -354,7 +377,7 @@
                       </div> 
                     </div>
                     <div>
-                      <span class="article-price text-red font-weight-bold">40$</span>
+                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                     </div>
                   </div>
                  </div>
@@ -367,14 +390,14 @@
                 </article>
              
               </div> 
-             <div class="col-lg-3 col-6 col-6">
+             <div class="col-lg-2 col-5 ml-3 bg-white">
                <img class="width-100 fixed-height-1" src="/assets/images/piano.jpg" alt="piano">
                <div class="row">
                 <div class="col-12 ">
                  <div class="row">
                    <div class="col-12">
-                     <h6> Acousic guitarships from CMR</h6>
-                 <p> brand new </p>
+                     <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                     <p class="font-gotham-bold color-red"> brand new </p>
                  <p>FRom cameroon Bafoussam</p>
                    </div>
                  </div>
@@ -392,7 +415,7 @@
                            </div> 
                          </div>
                          <div>
-                           <span class="article-price text-red font-weight-bold">40$</span>
+                           <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                          </div>
                        </div>
                       </div>
@@ -403,14 +426,14 @@
                 
               </div>
               </div>   
-            <div class="col-lg-3 col-6 col-6">
+            <div class="col-lg-2 col-5 ml-3 bg-white">
              <img class="width-100 fixed-height-1" src="/assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe">
              <div class="row">
               <div class="col-12 ">
                <div class="row">
                  <div class="col-12">
-                   <h6> Acousic guitarships from CMR</h6>
-               <p> brand new </p>
+                   <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                <p class="font-gotham-bold color-red"> brand new </p>
                <p>FRom cameroon Bafoussam</p>
                  </div>
                </div>
@@ -428,7 +451,7 @@
                          </div> 
                        </div>
                        <div>
-                         <span class="article-price text-red font-weight-bold">40$</span>
+                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                        </div>
                      </div>
                     </div>
@@ -439,14 +462,14 @@
               
             </div>
             </div> 
-          <div class="col-lg-3 col-6 col-6 ">
+          <div class="col-lg-2 col-5 ml-3 bg-white">
            <img class="width-100 fixed-height-1" src="/assets/images/mic.jpg" alt="microphone">
            <div class="row">
             <div class="col-12 ">
              <div class="row">
                <div class="col-12">
-                 <h6> Acousic guitarships from CMR</h6>
-             <p> brand new </p>
+                 <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+              <p class="font-gotham-bold color-red"> brand new </p>
              <p>FRom cameroon Bafoussam</p>
                </div>
              </div>
@@ -464,7 +487,7 @@
                        </div> 
                      </div>
                      <div>
-                       <span class="article-price text-red font-weight-bold">40$</span>
+                       <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                      </div>
                    </div>
                   </div>
@@ -477,26 +500,30 @@
           </div>
           </div>
         </div>  
-     
+      </div>
     </section>
     <!-- SECTION PIANOS ONLY -->
-    <section class="pianos-only">
-      <div class="row ">
-        <div class="row heading">
-          <div class="col-lg-12 col-md-12">
+    <section class="background-grey-2 pianos-only  center-content ml-auto mr-auto pb-5">
+      <div class="container">
+      <div class="row center-content-sm ml-auto mr-auto">
+        <div class="row heading ">
+          <div class="col-lg-12 col-md-12  py-3">
         <h5>  Recommnded instruments</h5>
           </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-6 col-6">
+        <div class="row border-t pt-5">
+            <div class="col-lg-2 col-5  bg-white">
               <article>
                 <img class="width-100 fixed-height-1" src="/assets/images/brown-guitar.jpg" alt="guitars">
-       <div class="row">
+                <div class="next-prev-width background-grey relative rounded-prev pl-3">
+                  <a href="#" class="previous color-red">&laquo; </a>
+                 </div>
+                <div class="row">
          <div class="col-12 ">
           <div class="row">
             <div class="col-12">
-              <h6> Acousic guitarships from CMR</h6>
-          <p> brand new </p>
+              <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+           <p class="font-gotham-bold color-red"> brand new </p>
           <p>FRom cameroon Bafoussam</p>
             </div>
           </div>
@@ -514,7 +541,7 @@
                     </div> 
                   </div>
                   <div>
-                    <span class="article-price text-red font-weight-bold">40$</span>
+                    <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                   </div>
                 </div>
                </div>
@@ -527,14 +554,14 @@
               </article>
            
             </div> 
-           <div class="col-lg-3 col-6 col-6">
+           <div class="col-lg-2 col-5 ml-3  bg-white">
              <img class="width-100 fixed-height-1" src="/assets/images/piano.jpg" alt="piano">
              <div class="row">
               <div class="col-12 ">
                <div class="row">
                  <div class="col-12">
-                   <h6> Acousic guitarships from CMR</h6>
-               <p> brand new </p>
+                   <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+                <p class="font-gotham-bold color-red"> brand new </p>
                <p>FRom cameroon Bafoussam</p>
                  </div>
                </div>
@@ -552,7 +579,7 @@
                          </div> 
                        </div>
                        <div>
-                         <span class="article-price text-red font-weight-bold">40$</span>
+                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                        </div>
                      </div>
                     </div>
@@ -563,14 +590,14 @@
               
             </div>
             </div>   
-          <div class="col-lg-3 col-6 col-6">
+          <div class="col-lg-2 col-5 ml-3  bg-white">
            <img class="width-100 fixed-height-1" src="/assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe">
            <div class="row">
             <div class="col-12 ">
              <div class="row">
                <div class="col-12">
-                 <h6> Acousic guitarships from CMR</h6>
-             <p> brand new </p>
+                 <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+              <p class="font-gotham-bold color-red"> brand new </p>
              <p>FRom cameroon Bafoussam</p>
                </div>
              </div>
@@ -588,7 +615,7 @@
                        </div> 
                      </div>
                      <div>
-                       <span class="article-price text-red font-weight-bold">40$</span>
+                       <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                      </div>
                    </div>
                   </div>
@@ -599,14 +626,14 @@
             
           </div>
           </div> 
-        <div class="col-lg-3 col-6 col-6 ">
+        <div class="col-lg-2 col-5 ml-3  bg-white">
          <img class="width-100 fixed-height-1" src="/assets/images/mic.jpg" alt="microphone">
          <div class="row">
           <div class="col-12 ">
            <div class="row">
              <div class="col-12">
-               <h6> Acousic guitarships from CMR</h6>
-           <p> brand new </p>
+               <h6 class="color-helvetica-black font-gotham-bold"> Acousic guitarships from CMR</h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
            <p>FRom cameroon Bafoussam</p>
              </div>
            </div>
@@ -624,7 +651,7 @@
                      </div> 
                    </div>
                    <div>
-                     <span class="article-price text-red font-weight-bold">40$</span>
+                     <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                    </div>
                  </div>
                 </div>
@@ -636,8 +663,54 @@
         </div>
         </div>
         </div>
+        </div>
+      </div>
     </section>
   </main>
+  <footer class=" center-content ml-auto mr-auto">
+    <div class="container categories">
+      <div class="row center-content-sm ml-auto mr-auto">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-8 d-flex">
+              <div class="music-icon bg-success">
+                ksmdd
+              </div>
+              <div class="name-of-icon bg-danger">
+                ,shdd
+              </div>
+            </div>
+            <div class="row">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Eum voluptas quas earum minus nostrum nam ut pariatur impedit minima maxime dolorem,
+                 molestiae saepe debitis, distinctio ex? Dicta amet ipsa eaque.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="color-red font-gotham-bold">categories</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              molestiae saepe debitis, distinctio ex? Dicta amet ipsa eaque
+            </div>
+            <div class="col-4">
+              molestiae saepe debitis, distinctio ex? Dicta amet ipsa eaque
+            </div>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam unde cumque fugiat 
+          temporibus doloribus? Facere, nisi! Voluptates tempora exercitationem saepe, 
+          adipisci nostrum maiores velit! Non magni officiis aspernatur corrupti eius?</p>
+      </div>
+    </div>
+  </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

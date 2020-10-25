@@ -1,0 +1,81 @@
+
+   @font-face {
+    font-family: gotham-bold;
+    src: url(/assets/fonts/GothamBold.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: gotham-light;
+    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+  }
+  @font-face {
+    font-family: helvetica-light;
+    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+  }
+  @font-face {
+    font-family: helvetica-medium;
+    src: url(/assets/fonts/HelveticaNeue-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: helvetica-bold;
+    src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
+  }
+  .font-gotham-light {
+    font-family: gotham-light;
+  }
+  .font-gotham-bold {
+    font-weight: gotham-bold;
+  }
+  .font-helvetica-light {
+    font-family: helvetica-light;
+  }
+  .font-helvetica-medium {
+    font-family:helvetica-medium;
+  }
+  .font-helvetica-bold {
+    font-family:helvetica-medium;
+  }
+  body {
+    font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  
+  }
+
+   .navbar {
+    background-color: #080707;
+  }
+  
+  .home-icon {
+    background: #d35266;
+  }
+
+  .color-red {
+    color: #d35266;
+  }
+.fa-music{
+font-size: 24px;
+ 
+}
+.background-grey {
+  background-color: rgb(245, 231, 231);
+}
+.rounded-prev {
+  bottom: 120px;
+  left: -10%;
+  border-radius: 15px;
+}
+.all-instruments,.fa-home,.fa-music{
+  color: #d35266;
+}
+  .color-grey, .background-grey-2 {
+    background-color: rgb(104, 101, 101);
+  }
+  .text-grey {
+    color: rgb(104, 101, 101);
+  }
+ 
+  input::placeholder{
+    background-color: white;
+    color: #888888;
+    font-family: helvetica-light;
+  }

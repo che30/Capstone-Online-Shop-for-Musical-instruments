@@ -14,12 +14,27 @@
   }
   @font-face {
     font-family: helvetica-medium;
-    src: url(/assets/fonts/HelveticaNeue-Medium.ttf;
+    src: url(/assets/fonts/HelveticaNeue-Medium.ttf);
   }
 
   @font-face {
     font-family: helvetica-bold;
     src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
+  }
+  .font-gotham-light {
+    font-family: gotham-light;
+  }
+  .font-gotham-bold {
+    font-weight: gotham-bold;
+  }
+  .font-helvetica-light {
+    font-family: helvetica-light;
+  }
+  .font-helvetica-medium {
+    font-family:helvetica-medium;
+  }
+  .font-helvetica-bold {
+    font-family:helvetica-medium;
   }
   body {
     font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
@@ -33,15 +48,13 @@
   .home-icon {
     background: #d35266;
   }
-  .home {
+
+  .color-red {
     color: #d35266;
   }
 .fa-music{
 font-size: 24px;
  
-}
-.next-prev a {
-  color: #d35266;
 }
 .background-grey {
   background-color: rgb(245, 231, 231);
@@ -54,7 +67,7 @@ font-size: 24px;
 .all-instruments,.fa-home,.fa-music{
   color: #d35266;
 }
-  .color-grey {
+  .color-grey, .background-grey-2 {
     background-color: rgb(104, 101, 101);
   }
   .text-grey {
@@ -63,9 +76,11 @@ font-size: 24px;
  
   input::placeholder{
     background-color: white;
+    color: #888888;
+    font-family: helvetica-light;
   }
   /* MAIN-SECTION */
-  .background-color {
+  .background-color-red {
     background-color: #d35266;
   }
   .relative {
@@ -75,8 +90,7 @@ font-size: 24px;
     left: 5%;
  
   }
-  .gliding-menu {
-    background-color: #d35266; 
+  .gliding-menu { 
     width: 100%;
   }
   .cart{
@@ -112,7 +126,15 @@ font-size: 24px;
   height: 45px;
 }
 /* SECTION HOT-ADS */
-
+.Discount-instrumnts {
+  z-index: 1;
+}
+.color-helvetica-grey {
+color: #888888;
+}
+.color-helvetica-black {
+  color: #383838;
+}
 .next-prev{
   top: 180px;
   left: 90%;
@@ -164,7 +186,10 @@ border-radius: 2px 0 0 2px;
 }
 .drop-down:hover .drop-down-content {display: block;}
 .drop-down:hover .article-button {background-color: #7a7475;}
-  
+  /* PIANOS ONLY */
+  .center-content {
+    /* width: 99%; */
+  }
   @media  (max-width:567px)
   {
     .nav-list-1 {
@@ -182,7 +207,9 @@ border-radius: 2px 0 0 2px;
     .all-instruments {
       display: none;
     }
-    
+    .center-content-sm {
+      width: 90%;
+    } 
   }
 
 
