@@ -2,8 +2,8 @@
 This is a capstone project for students at the end of html/css module . This project tests a sythensis of all what the stuents have learned.
  The  project is an online shop for musical instruments and the purpose is to make it responsive across the following viewports Large screens(laptots) medium screens(tablets) and small screens(Some some smart phones)
  
-![screenshot](./assets/images/shot1)
-![screenshot](./assets/images/shot2)
+![screenshot](./assets/images/short1)
+![screenshot](./assets/images/short2)
 
 ## Built With
 
