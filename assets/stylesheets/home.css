@@ -1,241 +1,318 @@
- 
-   @font-face {
-    font-family: gotham-bold;
-    src: url(/assets/fonts/GothamBold.ttf);
-    font-weight: 500;
-  }
-  @font-face {
-    font-family: gotham-light;
-    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
-  }
-  @font-face {
-    font-family: helvetica-light;
-    src: url(/assets/fonts/HelveticaNeue-Light.ttf);
-  }
-  @font-face {
-    font-family: helvetica-medium;
-    src: url(/assets/fonts/HelveticaNeue-Medium.ttf);
-  }
 
-  @font-face {
-    font-family: helvetica-bold;
-    src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
-  }
-  .font-gotham-light {
-    font-family: gotham-light;
-  }
-  .font-gotham-bold {
-    font-weight: gotham-bold;
-  }
-  .font-helvetica-light {
-    font-family: helvetica-light;
-  }
-  .font-helvetica-medium {
-    font-family:helvetica-medium;
-  }
-  .font-helvetica-bold {
-    font-family:helvetica-medium;
-  }
-  body {
-    font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
-  
-  }
-
-   .navbar {
-    background-color: #080707;
-  }
-  
-  .home-icon {
-    background: #d35266;
-  }
-
-  .color-red {
-    color: #d35266;
-  }
-.fa-music{
-font-size: 24px;
- 
+@font-face {
+  font-family: gotham-bold;
+  src: url(/assets/fonts/GothamBold.ttf);
+  font-weight: 500;
 }
+
+@font-face {
+  font-family: gotham-light;
+  src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: helvetica-light;
+  src: url(/assets/fonts/HelveticaNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: helvetica-medium;
+  src: url(/assets/fonts/HelveticaNeue-Medium.ttf);
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(/assets/fonts/HelveticaNeue-Bold.ttf);
+}
+
+.font-gotham-light {
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.font-gotham-bold {
+  font-weight: 400;
+}
+
+.font-helvetica-light {
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.font-helvetica-medium {
+  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.font-helvetica-bold {
+  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+body {
+  font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+.navbar {
+  background-color: #080707;
+}
+
+.home-icon {
+  background: #d35266;
+}
+
+.color-red {
+  color: #d35266;
+}
+
+.fa-music {
+  font-size: 24px;
+}
+
 .background-grey {
   background-color: rgb(245, 231, 231);
 }
+
 .rounded-prev {
   bottom: 120px;
-  left: -10%;
+  left: -50%;
   border-radius: 15px;
 }
-.all-instruments,.fa-home,.fa-music{
+
+.all-instruments,
+.fa-home,
+.fa-music {
   color: #d35266;
 }
-  .color-grey, .background-grey-2 {
-    background-color: rgb(104, 101, 101);
-  }
-  .text-grey {
-    color: rgb(104, 101, 101);
-  }
- 
-  input::placeholder{
-    background-color: white;
-    color: #888888;
-    font-family: helvetica-light;
-  }
-  /* MAIN-SECTION */
-  .background-color-red {
-    background-color: #d35266;
-  }
-  .relative {
-    position: relative;
-  }
-  .slideshow-menu{
-    left: 5%;
- 
-  }
-  .gliding-menu {
-    background-image:
+
+.color-grey,
+.background-grey-2 {
+  background-color: rgb(104, 101, 101);
+}
+
+.text-grey {
+  color: rgb(104, 101, 101);
+}
+
+input::placeholder {
+  background-color: white;
+  color: #888;
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
+select {
+  border: none;
+  background-color: white;
+}
+
+/* MAIN-SECTION */
+.background-color-red {
+  background-color: #d35266;
+}
+
+.relative {
+  position: relative;
+}
+
+.slideshow-menu {
+  left: 5%;
+}
+
+.gliding-menu {
+  background-image:
     linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%),
     url("/assets/images/music_logo.jpg");
-
   background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
 
-  }
-  /* .music-icon-bottom {
+/* .music-icon-bottom {
     font-size: 100px;
   } */
-  
-  .input-properties-1{
-    width: 100%;
-    border: 5px solid white;
-  }
-  .input-properties-2 { 
-    border: 5px solid white;
-    width: 100px;
-  }
-  #cars {
-    padding-top: 10px;
-    border: 5px solid white;
-  }
-  .border-red {
-    border: 2px solid #d35266
-  }
-  
-  .music-icon-2{
+
+.input-properties-1 {
+  width: 100%;
+  border: 5px solid white;
+}
+
+.input-properties-2 {
+  border: 5px solid white;
+  width: 100px;
+}
+
+#cars {
+  padding-top: 10px;
+  border: 5px solid white;
+}
+
+.border-red-right {
+  border-right: 2px solid #d35266;
+}
+
+.music-icon-2 {
   color: white;
-  }
-  .width-100 {
-    width: 100%;
-  }
+}
+
+.width-100 {
+  width: 100%;
+}
+
 .search-btn {
   height: 45px;
 }
+
 /* SECTION HOT-ADS */
 .hot-ads {
-  
- padding-left: 10%;
- padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+.prev-hot {
+  width: 60px;
+  left: -23%;
+  bottom: 130px;
+  border-radius: 15px;
+}
+
+.next-prev-0 {
+  width: 70px;
+  bottom: -190px;
+  right: -80%;
+}
+
+.previous-s,
+.next-s {
+  font-size: 30px;
+}
+
 .Discount-instrumnts {
   z-index: 1;
 }
+
 .color-helvetica-grey {
-color: #888888;
+  color: #888;
 }
+
 .color-helvetica-black {
   color: #383838;
 }
-.next-prev{
+
+.next-prev {
   top: 180px;
   left: 90%;
 }
-.next-prev-width{
-  width: 40px;
+
+.previous {
+  font-size: 30px;
+  color: black;
 }
+
+.next-prev-width {
+  width: 70px;
+}
+
 .background-black {
   background-color: #383838;
 }
+
 .border-left {
-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
 }
+
 .border-right {
   border-radius: 0 2px 2px 0;
   border-left: 3px solid #8a3945;
 }
-/*Discount-instruments*/
-.border-tb-solid{
+
+/* Discount-instruments */
+.border-tb-solid {
   border-bottom: 1px solid rgb(168, 164, 164);
 }
-.border-t{
+
+.border-t {
   border-top: 1px solid rgb(168, 164, 164);
 }
+
 .background-grey-2 {
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
 }
+
 /* SECTION PLUGINS */
 .fixed-height-1 {
   height: 170px;
 }
+
 .drop-down {
   display: inline-block;
 }
+
 .drop-down-content {
   display: none;
-  right: 500px; 
+  right: 500px;
   bottom: 100px;
   z-index: 1;
 }
-.drop-down-content  a{
+
+.drop-down-content a {
   color: black;
-  padding: 12px 16px; 
-   text-decoration: none; 
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
 }
+
 .drop-down-content a:hover {
   background-color: #ddd;
 }
-.drop-down:hover .drop-down-content {display: block;}
-.drop-down:hover .article-button {background-color: #7a7475;}
-  /* PIANOS ONLY */
-  .center-content {padding-left: 10%;
-margin-right: auto;
+.drop-down:hover .drop-down-content { display: block; }
+.drop-down:hover .article-button { background-color: #7a7475; }
+
+/* PIANOS ONLY */
+.center-content {
+  padding-left: 10%;
+  margin-right: auto;
+}
+
+/* FOOTER */
+
+.fixed-withf-1 {
+  max-width: 300px;
+}
+
+@media (max-width: 567px) {
+  .border-red-right {
+    border-right: 0;
   }
-  @media  (max-width:567px)
-  {
-    .nav-list-1 {
-      display: flex;
-      width: 200px
-      
-    }
-    .navbar {
-      display: flex; 
-      align-content: center;
-      align-items: center;
-    
-    }
-  
-    .all-instruments {
-      display: none;
-    }
-    .center-content-sm {
-      width: 90%;
-    } 
-    /* .center-content {padding-left: 20%;
+
+  .nav-list-1 {
+    display: flex;
+    width: 200px;
+  }
+
+  .navbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  .all-instruments {
+    display: none;
+  }
+
+  .center-content-sm {
+    width: 90%;
+  }
+
+  /* .center-content {padding-left: 20%;
       margin-right: auto;
         } */
-  }
+}
 
-
-  @media  (max-width: 768px){
-    
-    .all-instruments{
-      display: none;
-    }  
-
+@media (max-width: 768px) {
+  .all-instruments {
+    display: none;
   }
-  @media (min-width: 1024px)
-  {
-    .nav-list-1 {
-      width: 400px;
-    }
+}
+
+@media (min-width: 1024px) {
+  .nav-list-1 {
+    width: 400px;
   }
+}

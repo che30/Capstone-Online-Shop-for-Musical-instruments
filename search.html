@@ -17,7 +17,7 @@
    <nav class="">
     <div class="navbar navbar-expand-lg navbar-expand-expand-md navbar-expand-sm  nav-top justify-content-between align-content-center ">
       <ul class="list-unstyled nav-list-1  d-flex justify-content-between align-items-center">
-       <li class="music-icon same-width pr-md-3 "><i class='fas fa-music'></i></li>
+       <li class="music-icon same-width pr-md-3 m "><i class='fas fa-music'></i></li>
        <li ><a class="music text-white" href="#">MUSIC</a></li>
        <li class="nav-top-left pl-2 all-instruments d-none d-lg-block  "><i class="fa fa-th-list same-width"></i></li>
        <li  class=" text-decoration-none d-none d-lg-block text-white pl-md-2"><a class="text-white"  href="#">All instruments</a></li>
@@ -38,7 +38,7 @@
 </nav>
   </header>
   <main >
-    <section class="container-fluid gliding-menu pt-5 mb-0 ">
+    <section class="container-fluid gliding-menu pt-5 pb-1 mb-0 ">
       <div class="container-fluid">
         <div class="row  ">
          
@@ -51,10 +51,11 @@
       </div>
       <div class="row  pb-5 mb-5 ml-auto">
 
-              <div class="col-lg-4 col-sm-12 border-red bg-white py-2 pt-1">
+              <div class="col-lg-4 col-sm-12 border-red-right bg-white py-2 pt-1 mb-md-1 mb-1">
                 <form action="./search.html" class="bg-white  form-2-pd">
-                  <label class="color-helvetica-grey font-helvetica-light" for="cars">All categories</label>
-                <select name="instruments"  >
+                  <label class="color-helvetica-grey font-helvetica-light" for="instruments">All categories</label>
+                <select name="instruments" id="instruments"  >
+                  <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="microphone" > microphone</option>
                   <option class="color-helvetica-grey font-helvetica-medium d-none" value="Guitar" >Guitar</option>
                   <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
                   <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
@@ -62,12 +63,12 @@
                 </select>
                 </form>
                </div>
-               <div class="col-lg-3 col-sm-12 border-red bg-white">
-                <form action="./search.html"  class="bg-white py-1">
+               <div class="col-lg-3 col-sm-12 border-red-right bg-white mb-md-1 mb-1">
+                <form action="GET"  class="bg-white py-1">
                   <input type="text" class="input-properties-1" placeholder="what are you searching for?">
                 </form>
               </div>
-              <div class="col-lg-3 col-sm-12 border-red bg-white">
+              <div class="col-lg-3 col-sm-12  bg-white">
                 <form action="./search.html" class="bg-white py-1 m-auto" method="GET">
                   <input type="text" placeholder="country" class="input-properties-2">
                 </form>
@@ -79,64 +80,82 @@
               </div>
         </div>
       </div>
-      </div>
   </section>
   <section class="background-grey">
-    <section class="container search-results background-grey br-g">
+    <section class="container search-results background-grey br-g border-bottom">
       <div class="row pt-5">
-        <div class="col-3 br-g">
+        <div class="col-lg-3 col-md-3 col-12 br-g">
           <h6 class="gotham-bold br-grey ">Type</h6>
-          <form action="/action_page.php">
-            <input type="checkbox"  name="Type" value=" USED">
-            <label for="used" class="pr-4 helvetica-medium"> used</label>
-            <input type="checkbox"  name="new" value="new">
-            <label for="new"  class="helvetica-medium"> New</label>
+          <div class="d-flex justify-content-between">
+            <div>
+              <form action="post">
+                <input type="checkbox" id="used" name="Type" value=" USED">
+                <label for="used"  class="pl-lg-4 pl-1 helvetica-medium"> used</label>
+              </form>
+            </div>
+            <div>
+              <form action="GET">
+           
+                <input type="checkbox" id="new"  name="new" value="new">
+                <label for="new"  class="helvetica-medium pl-lg-3 pl-2"> new</label>
+              </form>
+            </div>
+          </div>
+         <div class="checkbox-options">
+          <div>
+            <h6 class="font-helvetica-medium b-567 ">category</h6>
+          <form action="GET">
+            <input type="checkbox" id="used1"  name="used" value="instrument">
+            <label for="used1"  class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox" id="new1" name="new" value="new">
+            <label for="new1" class="helvetica-medium"> New</label><br>
+            <input type="checkbox" id="new2" name="company" value="company">
+            <label for="new2" class="helvetica-medium">company</label><br>
           </form>
-          <h6 class="helvetica-medium">category</h6>
-          <form action="/action_page.php">
-            <input type="checkbox"  name="Type" value=" USED">
-            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
-            <input type="checkbox"  name="new" value="new">
-            <label for="new" class="helvetica-medium"> New</label><br>
-            <input type="checkbox"  name="company" value="company">
-            <label for="new" class="helvetica-medium">company</label><br>
+          </div>
+         <div>
+          <div>
+            <h6 class="b-567 gotham-light">category</h6>
+          <form action="GET">
+            <input type="checkbox" id="used2"  name="Type" value=" USED">
+            <label for="used2" class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox" id="new3"  name="new" value="new">
+            <label for="new3" class="helvetica-medium"> New</label><br>
+            <input type="checkbox" id="new4"  name="company" value="company">
+            <label for="new4" class="helvetica-medium">company</label><br>
           </form>
-          <h6>category</h6>
+         </div>
+          </div>
+         <div>
+          <h6 class="gotham-bold b-567">category</h6>
           <form action="/action_page.php">
-            <input type="checkbox"  name="Type" value=" USED">
-            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
-            <input type="checkbox"  name="new" value="new">
-            <label for="new" class="helvetica-medium"> New</label><br>
-            <input type="checkbox"  name="company" value="company">
-            <label for="new" class="helvetica-medium">company</label><br>
-          </form>
-          <h6 class="gotham-bold">category</h6>
-          <form action="/action_page.php">
-            <input type="checkbox"  name="Type" value=" USED">
-            <label for="used" class="pr-4 helvetica-medium"> used</label><br>
-            <input type="checkbox"  name="new" value="new">
-            <label for="new" class="helvetica-medium"> New</label><br>
-            <input type="checkbox"  name="company" value="company">
-            <label for="new" class="helvetica-medium">company</label><br>
+            <input type="checkbox" id="used3" name="Type" value=" USED">
+            <label for="used3" class="pr-4 helvetica-medium"> used</label><br>
+            <input type="checkbox" id="new5"  name="new" value="new">
+            <label for="new5" class="helvetica-medium"> New</label><br>
+            <input type="checkbox" id="new6" name="company" value="company">
+            <label for="new6" class="helvetica-medium">company</label><br>
           </form>
         </div>
-        <div class="col-8 bt-g ">
-          <div class="row bt-g">
+         </div>
+         </div>
+        <div class="col-lg-8 col-md-8 col-12   bt-g ">
+          <div class="row">
          <div class="row">
           <div class="col-12 ">
             <h6 class="helvetica-medium">About 60 results correspond to your search  </h6>
           </div>
          </div>
-         <div class="row">
-           <div class="col-4">
+         <div class="row pb-5 pb-5">
+           <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+             <img class="figure-img img-fluid" src="/assets/images/earphones.jpg" alt="saxophone">
+         </div>
+         <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+           <div class="">
             <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
               <a href="#" class="previous color-red">&laquo;</a>
               <a href="#" class="next color-red">&raquo;</a>
              </div>
-             <img class="figure-img img-fluid" src="/assets/images/Saxophone-Free-Download-PNG.png" alt="saxophone">
-         </div>
-         <div class="col-8 d-flex flex-column">
-           <div class="">
             <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           
            <div>
@@ -162,16 +181,16 @@
         </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-4">
-         <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
-           <a href="#" class="previous color-red">&laquo;</a>
-           <a href="#" class="next color-red">&raquo;</a>
-          </div>
-          <img class="figure-img img-fluid" src="/assets/images/piano.jpg" alt="saxophone">
+      <div class="row pb-5 pb-5">
+        <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+          <img class="figure-img img-fluid" src="/assets/images/guitar-b.jpg" alt="saxophone">
       </div>
-      <div class="col-8 d-flex flex-column">
+      <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
         <div class="">
+          <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+            <a href="#" class="previous color-red">&laquo;</a>
+            <a href="#" class="next color-red">&raquo;</a>
+           </div>
          <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
        
         <div>
@@ -194,16 +213,16 @@
      </div>
      </div>
    </div>
-   <div class="row">
-    <div class="col-4">
-     <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
-       <a href="#" class="previous color-red">&laquo;</a>
-       <a href="#" class="next color-red">&raquo;</a>
-      </div>
-      <img class="figure-img img-fluid" src="/assets/images/mixer.jpg" alt="saxophone">
+   <div class="row pb-5 pb-5">
+    <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+      <img class="figure-img img-fluid" src="/assets/images/coupon-2.webp" alt="saxophone">
   </div>
-  <div class="col-8 d-flex flex-column">
+  <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
     <div class="">
+      <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+        <a href="#" class="previous color-red">&laquo;</a>
+        <a href="#" class="next color-red">&raquo;</a>
+       </div>
      <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
    
     <div>
@@ -226,16 +245,16 @@
  </div>
  </div>
 </div>
-<div class="row">
-  <div class="col-4">
-   <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
-     <a href="#" class="previous color-red">&laquo;</a>
-     <a href="#" class="next color-red">&raquo;</a>
-    </div>
-    <img class="figure-img img-fluid" src="/assets/images/spekers.jpg" alt="saxophone">
+<div class="row pb-5 pb-5">
+  <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0 ">
+    <img class="figure-img img-fluid" src="/assets/images/coupon-4.webp" alt="saxophone">
 </div>
-<div class="col-8 d-flex flex-column">
+<div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
   <div class="">
+    <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+      <a href="#" class="previous color-red">&laquo;</a>
+      <a href="#" class="next color-red">&raquo;</a>
+     </div>
    <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
  
   <div>
@@ -258,16 +277,16 @@
 </div>
 </div>
 </div>
-<div class="row">
-  <div class="col-4">
-   <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
-     <a href="#" class="previous color-red">&laquo;</a>
-     <a href="#" class="next color-red">&raquo;</a>
-    </div>
+<div class="row pb-5 pb-5">
+  <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
     <img class="figure-img img-fluid" src="/assets/images/plugins.jpg" alt="saxophone">
 </div>
-<div class="col-8 d-flex flex-column">
+<div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
   <div class="">
+    <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+      <a href="#" class="previous color-red">&laquo;</a>
+      <a href="#" class="next color-red">&raquo;</a>
+     </div>
    <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
  
   <div>
@@ -301,7 +320,7 @@
       <div class="row ml-auto mr-auto">
         <div class="col-6">
           <div class="row">
-            <div class="col-8 d-flex">
+            <div class="col-lg-8 col-md-8 col-12 d-flex">
               <div class="music-icon bg-success">
                 ksmdd
               </div>
@@ -343,7 +362,7 @@
               </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-upcase text-red pb-2">CREDITS</64>
+              <h6 class="footer-links-title text-upcase text-red pb-2">CREDITS</h6>
 
         <ul class="footer-links-group font-gotham-light list-unstyled">
           <li><a  class="text-decoration-none color-helvetica-grey" href="#">Gadgets</a></li>
@@ -355,7 +374,7 @@
         </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-upcase text-red pb-2">NAVIGATION</64>
+              <h6 class="footer-links-title text-upcase text-red pb-2">NAVIGATION</h6>
 
                 <ul class="footer-links-group font-gotham-light list-unstyled">
                   <li><a class="text-decoration-none color-helvetica-grey" href="#">Jewerlries</a></li>
