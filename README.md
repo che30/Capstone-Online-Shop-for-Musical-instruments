@@ -16,7 +16,7 @@ This is a capstone project for students at the end of html/css module . This pro
 ## Live Demo
 
 - [Live Demo Link](https://che30.github.io/Online-Shop-for-Musical-instruments/)
-- [Live Demo Video Link](https://www.loom.com/share/0b6fd477f2b14bd384d0247f866739ad)
+- [Live Demo Video Link](https://www.loom.com/share/e64c08d965744f2aa05447fef479edf7)
  
 
 ## Author
