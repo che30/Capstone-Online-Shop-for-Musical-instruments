@@ -72,7 +72,7 @@ body {
 .rounded-prev {
   bottom: 120px;
   left: -50%;
-  border-radius: 15px;
+  border-radius: 300px;
 }
 
 .all-instruments,
