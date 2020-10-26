@@ -190,10 +190,6 @@ select {
 }
 
 @media (max-width: 567px) {
-  .border-red-right {
-    border-right: 0;
-  }
-
   .nav-list-1 {
     display: flex;
     width: 200px;

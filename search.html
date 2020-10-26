@@ -43,7 +43,7 @@
         <div class="row  ">
          
           <div class="col-12   d-flex flex-column align-content-center align-items-center">
-            <h1 class="text-white font-gotham-bold">YOUR MUSIC SHOP</h1>
+            <h1 class="text-white font-gotham-bold">THE BEST MUSIC SHOP</h1>
     
    
            <p class="text-white font-gotham-light">buying and selling couldn't be simpler thn this</p>
@@ -51,33 +51,34 @@
       </div>
       <div class="row  pb-5 mb-5 ml-auto">
 
-              <div class="col-lg-4 col-sm-12 border-red-right bg-white py-2 pt-1 mb-md-1 mb-1">
-                <form action="./search.html" class="bg-white  form-2-pd">
-                  <label class="color-helvetica-grey font-helvetica-light" for="instruments">All categories</label>
-                <select name="instruments" id="instruments"  >
-                  <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="microphone" > microphone</option>
-                  <option class="color-helvetica-grey font-helvetica-medium d-none" value="Guitar" >Guitar</option>
-                  <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
-                  <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
-                  <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
-                </select>
-                </form>
-               </div>
-               <div class="col-lg-3 col-sm-12 border-red-right bg-white mb-md-1 mb-1">
-                <form action="GET"  class="bg-white py-1">
-                  <input type="text" class="input-properties-1" placeholder="what are you searching for?">
-                </form>
-              </div>
-              <div class="col-lg-3 col-sm-12  bg-white">
-                <form action="./search.html" class="bg-white py-1 m-auto" method="GET">
-                  <input type="text" placeholder="country" class="input-properties-2">
-                </form>
-              </div>
-              <div class="col-2">
-                
-                  <button type="submit" class="search-btn background-black text-white  font-helvetica-light color-helvetica-grey ">search</button>
-                 
-              </div>
+        <div class="col-lg-4 col-sm-12  bg-white py-2 pt-1 border-red-right mb-lg-0 mb-md-1 mb-1">
+          <form action="./search.html" class="bg-white  form-2-pd  ">
+            <label class="color-helvetica-grey font-helvetica-light"  for="instruments" >All categories</label>
+          <select name="instruments" id="instruments" >
+            <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="microphone" > </option>
+            <option class="color-helvetica-grey font-helvetica-medium border-none" value="Guitar" >Guitar</option>
+            <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
+            <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
+            <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
+          </select>
+          </form>
+         </div>
+         <div class="col-lg-3 col-sm-12 border-red-right bg-white mb-lg-0 mb-md-1 mb-1">
+          <form action="./search.html"  class="bg-white py-1">
+            <input type="text" class="input-properties-1" placeholder="what are you searching for?">
+          </form>
+        </div>
+        <div class="col-lg-3 col-sm-12  bg-white">
+          <form action="./search.html" class="bg-white py-1 m-auto" method="GET">
+            <input type="text" placeholder="country" class="input-properties-2">
+          </form>
+        </div>
+        <div class="col-2">
+          
+           <form action="./search.html" method="GET">
+            <button type="submit" class="search-btn background-black text-white  font-helvetica-light color-helvetica-grey ">search</button>
+          </form>
+           
         </div>
       </div>
   </section>
@@ -90,14 +91,14 @@
             <div>
               <form action="post">
                 <input type="checkbox" id="used" name="Type" value=" USED">
-                <label for="used"  class="pl-lg-4 pl-1 helvetica-medium"> used</label>
+                <label for="used"  class="pl-lg-4 pl-1  font-helvetica-light"> used</label>
               </form>
             </div>
             <div>
               <form action="GET">
            
                 <input type="checkbox" id="new"  name="new" value="new">
-                <label for="new"  class="helvetica-medium pl-lg-3 pl-2"> new</label>
+                <label for="new"  class=" font-helvetica-light pl-lg-3 pl-2"> new</label>
               </form>
             </div>
           </div>
@@ -106,11 +107,11 @@
             <h6 class="font-helvetica-medium b-567 ">category</h6>
           <form action="GET">
             <input type="checkbox" id="used1"  name="used" value="instrument">
-            <label for="used1"  class="pr-4 helvetica-medium"> used</label><br>
+            <label for="used1"  class="pr-4 font-helvetica-light"> used</label><br>
             <input type="checkbox" id="new1" name="new" value="new">
-            <label for="new1" class="helvetica-medium"> New</label><br>
+            <label for="new1" class=" font-helvetica-light"> New</label><br>
             <input type="checkbox" id="new2" name="company" value="company">
-            <label for="new2" class="helvetica-medium">company</label><br>
+            <label for="new2" class=" font-helvetica-light">company</label><br>
           </form>
           </div>
          <div>
@@ -118,11 +119,11 @@
             <h6 class="b-567 gotham-light">category</h6>
           <form action="GET">
             <input type="checkbox" id="used2"  name="Type" value=" USED">
-            <label for="used2" class="pr-4 helvetica-medium"> used</label><br>
+            <label for="used2" class="pr-4  font-helvetica-light"> used</label><br>
             <input type="checkbox" id="new3"  name="new" value="new">
-            <label for="new3" class="helvetica-medium"> New</label><br>
+            <label for="new3" class=" font-helvetica-light"> New</label><br>
             <input type="checkbox" id="new4"  name="company" value="company">
-            <label for="new4" class="helvetica-medium">company</label><br>
+            <label for="new4" class=" font-helvetica-light">company</label><br>
           </form>
          </div>
           </div>
@@ -130,11 +131,11 @@
           <h6 class="gotham-bold b-567">category</h6>
           <form action="/action_page.php">
             <input type="checkbox" id="used3" name="Type" value=" USED">
-            <label for="used3" class="pr-4 helvetica-medium"> used</label><br>
+            <label for="used3" class="pr-4  font-helvetica-light"> used</label><br>
             <input type="checkbox" id="new5"  name="new" value="new">
-            <label for="new5" class="helvetica-medium"> New</label><br>
+            <label for="new5" class=" font-helvetica-light"> New</label><br>
             <input type="checkbox" id="new6" name="company" value="company">
-            <label for="new6" class="helvetica-medium">company</label><br>
+            <label for="new6" class=" font-helvetica-light">company</label><br>
           </form>
         </div>
          </div>
@@ -143,7 +144,7 @@
           <div class="row">
          <div class="row">
           <div class="col-12 ">
-            <h6 class="helvetica-medium">About 60 results correspond to your search  </h6>
+            <h6 class="font-gotham-light">About 60 results correspond to your search  </h6>
           </div>
          </div>
          <div class="row pb-5 pb-5">
@@ -156,18 +157,18 @@
               <a href="#" class="previous color-red">&laquo;</a>
               <a href="#" class="next color-red">&raquo;</a>
              </div>
-            <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class=font-helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           
            <div>
-            <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class="font-helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
            </div>
-           <div class="helvetica medium">
+           <div class="font-helvetica medium">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
          </div>
-         <p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+         <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
           <div class="d-flex justify-content-between">
             <div>
-          <span>25 oct 2020</span>
+          <span class="font-gotham-light">25 oct 2020</span>
             </div>
            <div class="d-flex">
             <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
@@ -191,18 +192,18 @@
             <a href="#" class="previous color-red">&laquo;</a>
             <a href="#" class="next color-red">&raquo;</a>
            </div>
-         <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-       
-        <div>
-         <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="helvetica medium">
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      </div>
-      <p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+           <p class=font-helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          
+           <div>
+            <p class="font-helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+           </div>
+           <div class="font-helvetica medium">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         </div>
+      <p><span class="gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
        <div class="d-flex justify-content-between">
          <div>
-       <span>25 oct 2020</span>
+       <span class="font-helvetica-light">25 oct 2020</span>
          </div>
         <div class="d-flex">
          <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
@@ -223,18 +224,18 @@
         <a href="#" class="previous color-red">&laquo;</a>
         <a href="#" class="next color-red">&raquo;</a>
        </div>
-     <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-   
-    <div>
-     <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-    </div>
-    <div class="helvetica medium">
-     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-  </div>
-  <p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+       <p class=font-helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          
+       <div>
+        <p class="font-helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+       </div>
+       <div class="font-helvetica medium">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+     </div>
+  <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
    <div class="d-flex justify-content-between">
      <div>
-   <span>25 oct 2020</span>
+   <span class="font-helvetica-light">25 oct 2020</span>
      </div>
     <div class="d-flex">
      <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
@@ -247,7 +248,7 @@
 </div>
 <div class="row pb-5 pb-5">
   <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0 ">
-    <img class="figure-img img-fluid" ./assets/images/coupon-4.webp" alt="saxophone">
+    <img class="figure-img img-fluid" src="./assets/images/coupon-4.webp" alt="saxophone">
 </div>
 <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
   <div class="">
@@ -255,18 +256,18 @@
       <a href="#" class="previous color-red">&laquo;</a>
       <a href="#" class="next color-red">&raquo;</a>
      </div>
-   <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+   <p class="font-helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
  
   <div>
-   <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+   <p class="font-helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
   </div>
-  <div class="helvetica medium">
+  <div class="font-helvetica medium">
    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 </div>
-<p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+<p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
  <div class="d-flex justify-content-between">
    <div>
- <span>25 oct 2020</span>
+ <span class="font-helvetica-light">25 oct 2020</span>
    </div>
   <div class="d-flex">
    <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
@@ -287,18 +288,18 @@
       <a href="#" class="previous color-red">&laquo;</a>
       <a href="#" class="next color-red">&raquo;</a>
      </div>
-   <p class="helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+   <p class="font-helvetica-medium ">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
  
   <div>
-   <p class="helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+   <p class="font-helvetica-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
   </div>
-  <div class="helvetica medium">
+  <div class="font-helvetica medium">
    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 </div>
-<p><span class="gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
+<p><span class="font-gotham-bold">LOCATION</span> <span class="gotham-light">213 street stade Bamendzi bafoussam</span></p>
  <div class="d-flex justify-content-between">
    <div>
- <span>25 oct 2020</span>
+ <span class="font-helvetica-light">25 oct 2020</span>
    </div>
   <div class="d-flex">
    <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
@@ -318,7 +319,7 @@
   <footer class=" center-content ml-auto mr-auto">
     <div class="container categories">
       <div class="row ml-auto mr-auto">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-12">
           <div class="row">
             <div class="col-lg-8 col-md-8 col-12 d-flex">
               <div class="music-icon bg-success">
@@ -338,7 +339,7 @@
           </div>
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 col-12">
           <div class="row">
             <div class="col-12">
               <h6 class="color-red font-gotham-bold">CATEGORIES</h6>
