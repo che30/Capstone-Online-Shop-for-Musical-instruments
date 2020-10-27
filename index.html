@@ -14,7 +14,7 @@
   <body>
   <header>
    <nav class="">
-    <div class="navbar navbar-expand-lg navbar-expand-expand-md navbar-expand-sm  nav-top justify-content-between align-content-center ">
+    <div class="navbar pt-4 navbar-expand-lg navbar-expand-expand-md navbar-expand-sm  nav-top justify-content-between align-content-center ">
       <ul class="list-unstyled nav-list-1  d-flex justify-content-between align-items-center">
        <li class="music-icon same-width pr-md-3 "><i class='fas fa-music'></i></li>
        <li ><a class="music text-white" href="#">MUSIC</a></li>
@@ -48,38 +48,30 @@
            <p class="text-white font-gotham-light">buying and selling couldn't be simpler thn this</p>
         </div>
       </div>
-      <div class="row  pb-5 mb-5 ml-auto">
+      <div class="row  pb-5 mb-5 ml-5">
+        <div class="col-12">
+          <form action="./index.html" class="d-lg-flex justify-content-center align-content-center ">
+            <div class="border-red-right bg-white px-3 pl-2 pt-1">
+              <label class="color-helvetica-grey font-helvetica-light pt-1"  for="instruments" >All categories</label>
+              <select name="instruments" id="instruments" >
+                <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="mic" > mic</option>
+                <option class="color-helvetica-grey font-helvetica-medium border-none" value="Guitar" >Guitar</option>
+                <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
+                <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
+                <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
+              </select>
+            </div>
+            <div class="border-red-right bg-white  px-3 pt-1">
+              <input type="text" class="input-properties-1 " placeholder="what are you searching for?">
+            </div>
+            <div class="bg-white  pl-5 pt-1  pr-5">
+              <input type="text" placeholder="country" class="input-properties-2 pl-1">
+            </div>
+            <button type="submit" class="search-btn ml-lg-0  background-black  text-white   font-helvetica-light color-helvetica-grey ">search</button>
+          </form>
+        </div>
 
-        <div class="col-lg-4 col-sm-12  bg-white py-2 pt-1 border-red-right mb-lg-0 mb-md-1 mb-1">
-          <form action="./search.html" class="bg-white  form-2-pd  ">
-            <label class="color-helvetica-grey font-helvetica-light"  for="instruments" >All categories</label>
-          <select name="instruments" id="instruments" >
-            <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="mic" >mic </option>
-            <option class="color-helvetica-grey font-helvetica-medium border-none" value="Guitar" >Guitar</option>
-            <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
-            <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
-            <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
-          </select>
-          </form>
-         </div>
-         <div class="col-lg-3 col-sm-12 border-red-right bg-white mb-lg-0 mb-md-1 mb-1">
-          <form action="./search.html"  class="bg-white py-1">
-            <input type="text" class="input-properties-1" placeholder="what are you searching for?">
-          </form>
-        </div>
-        <div class="col-lg-3 col-sm-12  bg-white">
-          <form action="./search.html" class="bg-white py-1 m-auto" method="GET">
-            <input type="text" placeholder="country" class="input-properties-2">
-          </form>
-        </div>
-        <div class="col-2">
-          
-           <form action="./search.html" method="GET">
-            <button type="submit" class="search-btn background-black text-white  font-helvetica-light color-helvetica-grey ">search</button>
-          </form>
-           
-        </div>
-  </div>
+      </div> 
       </div>
   </section>
    <section class=" hot-ads  pb-5     center-content ">
@@ -165,7 +157,7 @@
       
         <div class="row ">
           <div class="row border-t background-grey-2 pb-5 center-content pt-3">
-              <div class="col-lg-2 col-5 bg-white mb-2">
+              <div class="col-lg-2 col-5 ml-2 bg-white mb-2">
                 <article>
                   <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/guitarb.jpg" alt="guitars"></a>
                   <div class="next-prev-width background-grey relative rounded-prev pl-3">
@@ -207,7 +199,7 @@
                 </article>
              
               </div> 
-             <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-1 mb-2">
+             <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-2 mb-2">
               <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/professionalmic.jpg" alt="piano"></a>
                <div class="row">
                 <div class="col-12 ">
@@ -243,7 +235,7 @@
                 
               </div>
               </div>   
-            <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-1 ">
+            <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-2 ">
              <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe"></a>
              <div class="row">
               <div class="col-12 ">
@@ -334,7 +326,7 @@
           </div>
         <div class="row pb-5 border-t border-tb-solid  ">
           <div class="row  center-content pt-3 ">
-              <div class="col-lg-2 col-5 bg-white ">
+              <div class="col-lg-2 col-5 bg-white ml-3 mb-2 ">
                 <article>
                  <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/WHD-burch.jpg" alt="birch"></a>
                   <div class="next-prev-width background-grey relative rounded-prev pl-3">
@@ -376,7 +368,7 @@
                 </article>
              
               </div> 
-             <div class="col-lg-2 col-5 ml-3 bg-white">
+             <div class="col-lg-2 col-5 ml-3 bg-white mb-2">
                <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/xylophone.jpg" alt="xylophone"></a>
                <div class="row">
                 <div class="col-12 ">
@@ -499,7 +491,7 @@
           </div>
         </div>
         <div class="row border-t pt-5">
-            <div class="col-lg-2 col-5  bg-white">
+            <div class="col-lg-2 col-5  bg-white ml-3 mb-2">
               <article>
                <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/coupon1.jpg" alt="guitar wall hangers"></a>
                 <div class="next-prev-width background-grey relative rounded-prev pl-3">
@@ -541,7 +533,7 @@
               </article>
            
             </div> 
-           <div class="col-lg-2 col-5 ml-3  bg-white">
+           <div class="col-lg-2 col-5 ml-3  bg-white mb-2">
             <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/coupon2.webp" alt="piano"></a>
              <div class="row">
               <div class="col-12 ">
@@ -654,24 +646,25 @@
       </div>
     </section>
   </main>
-  <footer class=" center-content ml-auto mr-auto">
+  <footer class="pt-3 bg-white center-content ml-lg-auto ml-md-auto mr-lg-auto mr-md-auto mx-3">
     <div class="container categories">
       <div class="row ml-auto mr-auto">
         <div class="col-lg-6 col-md-6 col-12">
           <div class="row">
-            <div class="col-8 d-flex justify-content-between r align-items-center align-content-center fixed-withf-1">
+            <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-between">
               <div class="music-icon ">
-               <span><i class='fas fa-music'></i></span>
+                <span><i class='fas fa-music color-red font-gotham-bold'></i></span>
               </div>
-              <div class="name-of-icon ">
-             <h6>THE BEST MUSIC SHOP</h6>
+              <div class="name-of-icon color-red font-gotham-bold">
+                MUSIC SHOP
               </div>
             </div>
             <div class="row">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Eum voluptas quas earum minus nostrum nam ut pariatur impedit minima maxime dolorem,
-                 molestiae saepe debitis, distinctio ex? Dicta amet ipsa eaque.
+              <p class="font-gotham-light">
+                Entire contents Copyright © for The best shop Inc. The best shop is
+                yet to be  a registered trademark of XXX Inc. All Rights Reserved. Publisher does not accept liability for incorrect spelling, printing errors (including prices), 
+                incorrect manufacturer's specifications or changes, or grammatical inaccuracies in any product included in the Musician's 
+                Friend catalog or website. Prices subject to change without notice.
               </p>
             </div>
           </div>
@@ -701,7 +694,7 @@
               </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-upcase font-helvetica-medium color-red pb-2">CREDITS</h6>
+              <h6 class="footer-links-title text-capitalise color-red pb-2">CREDITS</h6>
 
         <ul class="footer-links-group font-gotham-light list-unstyled">
           <li><a  class="text-decoration-none color-helvetica-grey" href="#">Gadgets</a></li>
@@ -713,7 +706,7 @@
         </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-upcase text-red pb-2"></h6>
+              <h6 class="footer-links-title text-upcase color-red pb-2">NAVIGATION</h6>
 
                 <ul class="footer-links-group font-gotham-light list-unstyled">
                   <li><a class="text-decoration-none color-helvetica-grey" href="#">Jewerlries</a></li>
@@ -727,21 +720,19 @@
             </div>
             
           </div>
-          <div class="footer-copyright d-md-flex justify-content-between align-items-center mx-auto">
+          <div class="footer-copyright d-lg-flex d-md-flex justify-content-between align-items-center mx-auto">
             <div class="footer-copyright-left">
               <p class="font-helvetica-light text-center my-4">
                 This website is was designed 
-                <br class="d-md-none">
-                by <a href="https://github.com/che/30" class="font-weight-bold">CHE NSOH BLANCHARD</a>
-                <br class="d-md-none">
+                by <a href="https://github.com/che/30" class="font-weight-bold color-red">CHE NSOH BLANCHARD</a>
                 <span>&copy; Copyright 2020 - 2021 </span>
               </p>
             </div>
-            <ul class="footer-copyright-right d-flex align-items-center justify-content-center my-3 h3 list-unstyled">
-              <li class="mr-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
-              <li class="mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              <li class="mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li class="mr-3"><a href="#"><i class="fab fa-google"></i></a></li>
+            <ul class="ml-3 d-flex align-items-center justify-content-center my-3 h3 list-unstyled">
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-facebook"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-linkedin"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-twitter"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-google"></i></a></li>
               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>

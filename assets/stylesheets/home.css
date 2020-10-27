@@ -1,4 +1,15 @@
 
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: gotham-bold;
   src: url(/assets/fonts/GothamBold.ttf);
@@ -50,6 +61,7 @@ body {
 }
 
 .navbar {
+  height: 55px;
   background-color: #080707;
 }
 
@@ -124,12 +136,8 @@ select {
   width: 100%;
 }
 
-/* .music-icon-bottom {
-    font-size: 100px;
-  } */
-
 .input-properties-1 {
-  width: 100%;
+  width: 200px;
   border: 5px solid white;
 }
 
@@ -145,6 +153,7 @@ select {
 
 .border-red-right {
   border-right: 2px solid #d35266;
+  border-bottom: 1px solid #d35266;
 }
 
 .music-icon-2 {
@@ -299,20 +308,35 @@ select {
   .center-content-sm {
     width: 90%;
   }
-
-  /* .center-content {padding-left: 20%;
-      margin-right: auto;
-        } */
 }
 
 @media (max-width: 768px) {
   .all-instruments {
     display: none;
   }
+
+  .border-red-right {
+    border-bottom: 2px solid #d35266;
+    border-right: none;
+  }
+
+  .input-properties-1 {
+    width: 100px;
+    border: 5px solid white;
+  }
+
+  .search-btn {
+    margin-left: 32%;
+  }
 }
 
-@media (min-width: 1024px) {
-  .nav-list-1 {
-    width: 400px;
+@media (max-width: 1024px) {
+  .search-btn {
+    margin-left: 50%;
+  }
+
+  .border-red-right {
+    border-right: none;
+    border-bottom: 1px solid #d35266;
   }
 }
