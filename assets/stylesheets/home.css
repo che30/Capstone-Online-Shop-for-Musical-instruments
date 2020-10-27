@@ -315,6 +315,11 @@ select {
     display: none;
   }
 
+  .font-s {
+    font-size: 25px;
+  }
+
+
   .border-red-right {
     border-bottom: 2px solid #d35266;
     border-right: none;
