@@ -58,6 +58,7 @@
 
 body {
   font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -81,10 +82,28 @@ body {
   background-color: rgb(245, 231, 231);
 }
 
+.rounded-prev,
+.rounded-next {
+  width: 40px;
+  border-radius: 300px;
+  background-color: white;
+}
+
+.rounded-next {
+  right: -110%;
+  bottom: 140px;
+}
+
 .rounded-prev {
   bottom: 120px;
   left: -50%;
-  border-radius: 300px;
+}
+
+.rounded-test {
+  width: 40px;
+  color: #383838;
+  bottom: 250px;
+  right: -77%;
 }
 
 .all-instruments,
@@ -104,7 +123,8 @@ body {
 
 input::placeholder {
   background-color: white;
-  color: #888;
+
+  /* color: #888; */
   font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
@@ -114,6 +134,10 @@ select {
 }
 
 /* MAIN-SECTION */
+.center-content {
+  width: 97%;
+}
+
 .background-color-red {
   background-color: #d35266;
 }
@@ -153,7 +177,6 @@ select {
 
 .border-red-right {
   border-right: 2px solid #d35266;
-  border-bottom: 1px solid #d35266;
 }
 
 .music-icon-2 {
@@ -161,7 +184,11 @@ select {
 }
 
 .width-100 {
-  width: 100%;
+  width: 90%;
+}
+
+.fixed-height-j {
+  height: 160px;
 }
 
 .search-btn {
@@ -174,15 +201,40 @@ select {
   padding-right: 10%;
 }
 
-.prev-hot {
-  width: 60px;
-  left: -23%;
+.prev-hot-l {
+  width: 30px;
+  left: -80px;
+  bottom: 150px;
+  border-radius: 80px;
+}
+
+.prev-hot-r {
+  width: 30px;
+  right: -99%;
+  top: -30px;
+  border-radius: 80px;
+}
+
+.prev-key-l {
+  width: 30px;
+  bottom: 150px;
+  left: -30px;
+  border-radius: 80px;
+}
+
+div > .fa-angle-right {
+  font-size: 30px;
+}
+
+.prev-key-r {
+  right: -260px;
+  width: 30px;
+  border-radius: 80px;
   bottom: 130px;
-  border-radius: 15px;
 }
 
 .next-prev-0 {
-  width: 70px;
+  width: 35px;
   bottom: -190px;
   right: -80%;
 }
@@ -206,16 +258,12 @@ select {
 
 .next-prev {
   top: 180px;
-  left: 90%;
+  left: 40%;
 }
 
 .previous {
   font-size: 30px;
   color: black;
-}
-
-.next-prev-width {
-  width: 70px;
 }
 
 .background-black {
@@ -249,6 +297,12 @@ select {
   height: 170px;
 }
 
+.test {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 10px;
+}
+
 .drop-down {
   display: inline-block;
 }
@@ -274,10 +328,6 @@ select {
 .drop-down:hover .article-button { background-color: #7a7475; }
 
 /* PIANOS ONLY */
-.center-content {
-  padding-left: 10%;
-  margin-right: auto;
-}
 
 /* FOOTER */
 
@@ -285,14 +335,27 @@ select {
   max-width: 300px;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 566px) {
   .border-red-right {
     border-right: 0;
+  }
+
+  .width-100 {
+    width: 160px;
   }
 
   .nav-list-1 {
     display: flex;
     width: 200px;
+  }
+
+  .font-s {
+    font-size: 15px;
+  }
+
+  .form-post {
+    margin-left: 0;
+    margin-right: 25%;
   }
 
   .navbar {
@@ -305,8 +368,21 @@ select {
     display: none;
   }
 
-  .center-content-sm {
-    width: 90%;
+  .search-btn {
+    margin-left: 40%;
+    margin-right: 50%;
+  }
+
+  .heading-sec {
+    font-size: 12px;
+  }
+
+  .prev-hot-l {
+    left: -40px;
+  }
+
+  .prev-key-r {
+    right: -200px;
   }
 }
 
@@ -315,32 +391,69 @@ select {
     display: none;
   }
 
-  .font-s {
-    font-size: 25px;
-  }
-
-  .border-red-right {
-    border-bottom: 2px solid #d35266;
-    border-right: none;
-  }
-
   .input-properties-1 {
     width: 100px;
     border: 5px solid white;
   }
 
-  .search-btn {
-    margin-left: 32%;
+  .width-90-sm {
+    width: 90%;
   }
 }
 
 @media (max-width: 1024px) {
+  .border-red-right {
+    border-right: 1px solid   #d35266;
+    border-bottom: 1px solid #d35266;
+  }
+
+  .test {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .test {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .width-100 {
+    width: 200px;
+  }
+
   .search-btn {
     margin-left: 50%;
   }
 
-  .border-red-right {
-    border-right: none;
-    border-bottom: 1px solid #d35266;
+  .form-post {
+    margin-right: 20%;
+  }
+
+  .prev-key-l {
+    left: -30px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 567px) {
+  .width-100 {
+    width: 250px;
+  }
+
+  .search-btn {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+  .form-post {
+    margin-right: 17%;
+  }
+
+  .font-s {
+    font-size: 25px;
   }
 }

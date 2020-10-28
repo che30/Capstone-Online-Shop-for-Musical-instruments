@@ -45,54 +45,50 @@
             <h1 class="text-white font-gotham-bold font-s">An online music shop</h1>
     
    
-           <p class="text-white font-gotham-light">buying and selling couldn't be simpler this simpler</p>
+           <p class="text-white font-gotham-light heading-sec">buying and selling couldn't be simpler this simple</p>
         </div>
       </div>
       <div class="row  pb-5 mb-5 ml-5">
-        <div class="col-12">
-          <form action="./index.html" class="d-lg-flex justify-content-center align-content-center ">
-            <div class="border-red-right bg-white px-3 pl-2 pt-1">
-              <label class="color-helvetica-grey font-helvetica-light pt-1"  for="instruments" >All categories</label>
-              <select name="instruments" id="instruments" >
-                <option class="color-helvetica-grey font-helvetica-medium border-none" disabled selected value="mic" > mic</option>
-                <option class="color-helvetica-grey font-helvetica-medium border-none" value="Guitar" >Guitar</option>
-                <option class="color-helvetica-grey font-helvetica-medium " value="Piano">piano</option>
-                <option class="color-helvetica-grey font-helvetica-medium " value="violin">violin</option>
-                <option class="color-helvetica-grey font-helvetica-medium " value="saxophone">saxophone</option>
+        <div class="col-12 ">
+          <form action="./search.html" class="d-lg-flex justify-content-center form-post align-content-center ">
+            <div class="border-red-right bg-white px-3 pl-2  pt-1 ">
+              <label class="color-grey font-gotham-light pt-2 label-s"  for="instruments" ></label>
+              <select name="instruments" class="font-helvetica-light color-helvetica-grey pt-2 " id="instruments" >
+                <option class=" font-helvetica-light color-helvetica-grey border-none " value="" > All categories</option>
+                <option class=" border-none" value="Guitar" >Guitar</option>
+                <option  value="Piano">piano</option>
+                <option  value="violin">violin</option>
+                <option  value="saxophone">saxophone</option>
               </select>
             </div>
             <div class="border-red-right bg-white  px-3 pt-1">
-              <input type="text" class="input-properties-1 " placeholder="what are you searching for?">
+              <input type="text" class="input-properties-1 text-center " placeholder="what are you searching for?">
             </div>
-            <div class="bg-white  pl-5 pt-1  pr-5">
-              <input type="text" placeholder="country" class="input-properties-2 pl-1">
+            <div class="bg-white    pr-5">
+              <input type="text" placeholder="country" class="input-properties-2 text-center pl-1 pt-1">
             </div>
-            <button type="submit" class="search-btn ml-lg-0  background-black  text-white   font-helvetica-light color-helvetica-grey ">search</button>
+            <button type="submit" class="search-btn pb-1  ml-lg-0  background-black  text-white text-center   font-helvetica-light color-helvetica-grey ">search</button>
           </form>
         </div>
 
       </div> 
       </div>
   </section>
-   <section class=" hot-ads  pb-5     center-content ">
+   <section class=" hot-ads center-content">
    
-    <div class="container py-2">
+    <div class="container  py-2">
       <div class="row">
         <div class="col-7">
           <h6 class="font-helvetica-medium  color-helvetica-grey">Hot ads</h6>
         </div>
       </div>
-    </div> 
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12 absolute">
-            <div class="relative next-prev-0 background-black   pl-2">
-              <a href="#" class="previous-s  color-red">&laquo;</a>
-              <a href="#" class="next-s color-red">&raquo;</a>
+            <div class="relative next-prev-0 background-black pl-2  ">
+             <a href="#"> <i class="fa fa-angle-left color-red"></i></a>
+             <a href="#"> <i class="fa fa-angle-right color-red"></i></a>
              </div>
             <a href="/assets/stylesheets/search.css"><img src="./assets/images/featured.jpg" class="figure-img img-fluid" alt="woofer"></a>
-           <div class="background-grey relative prev-hot pl-3">
-            <a href="#" class="previous color-red">&laquo; </a>
-           </div>
           </div>
           <div class="col-lg-8 col-md-8 col-12">
             <div class="container-fluid">
@@ -103,14 +99,17 @@
             </div>
             <div class="container-fluid"></div>
               <div class="row">
-                <div class="col-12 ">
-                  <h6 class="font-helvetica-medium  color-helvetica-grey">
+                <div class="col-12 mt-3">
+                  <h6 class="font-helvetica-medium  color-helvetica-grey pt-2">
                     Buy Instruments & Equipment Online 
                     – 30-Day-Money-Back-Guarantee
                   </h6>
                   <p class="font-helvetica-light">Occasionally it’s love at first sight, but sometimes you may be unhappy with a product’s performance, or you may just change your mind. Have no fear, because we provide our customers with up to 30 days
                      to return the item for either money back or store credit. </p>
                 </div>
+                <div class="background-grey relative prev-hot-r pl-2 ">
+                  <a href="#"> <i class="fa fa-angle-right color-helvetica-black"></i></a>
+                  </div> 
               </div>
             <div class="row">
               <div class="col-7">
@@ -139,41 +138,151 @@
           </div>
         </div>
       </div>
+        </div>
+        <div class="background-grey relative prev-hot-l pl-2 ">
+          <a href="#"> <i class="fa fa-angle-left color-helvetica-black"></i></a>
+          </div> 
       </div>
     
     
    </section>
    <!-- DISCOUT INSTRUMENTS -->
-    <section class="background-grey-2 Discount-instruments  center-content border-t pt-3   ">
-      <div class="container  background-grey-2">
-    <div class="row ">
-        <div class="row ">
-          <article class=" section-summary ">
-          <div class="col-12 py-3 ">
-            <h6 class="color-helvetica-black font-gotham-bold">Keybords guitars pianos etc</h6>
-          </div>
-        </article>
+    <section class="background-grey-2  pt-3  center-content ">
+      <div class="border-t container width-90-sm">
+        <div class=" py-3 ">
+          <h6 class="py-1 color-helvetica-black text-center font-helvetica-medium">Keyboards guitars pianos etc</h6>
         </div>
-      
-        <div class="row ">
-          <div class="row border-t background-grey-2 pb-5 center-content pt-3">
-              <div class="col-lg-2 col-5 ml-2 bg-white mb-2">
-                <article>
-                  <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/guitarb.jpg" alt="guitars"></a>
-                  <div class="next-prev-width background-grey relative rounded-prev pl-3">
-                    <a href="#" class="previous color-red">&laquo; </a>
-                   </div>
-                  <div class="row">
-           <div class="col-12 ">
-            <div class="row">
-              <div class="col-12">
-                <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano Ukelele kit</h6>
-            <p class="font-gotham-bold color-red"> brand new </p>
-            <p>FRom cameroon Bafoussam</p>
+        <div class="test row border-t pt-3">
+        <div class="bg-white">
+          <article>
+            <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/guitarb.jpg" alt="guitars"></a>
+      <div class="">
+       
+          <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano </h6>
+      <p class="font-gotham-bold color-red"> brand new </p>
+      <p>FRom cameroon Bafoussam</p>
+      </div>
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="drop-down relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <div class="border text-center rounded absolute drop-down-content">
+                 <a href="#">Add to collection</a>
+                 <a href="#">Send an enquiry</a>
+                <a href="#">More details</a>
+                </div> 
+              </div>
+              <div>
+                <span class="article-price text-red font-weight-bold color-red font-gotham-bold">80$</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
+          </article>
+        </div>
+        <div>
+          <div class=" bg-white  ">
+            <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/professionalmic.jpg" alt="piano"></a>
+             <div class="">
+              <div class=" ">
+               <div class="">
+                 <div class="">
+                   <h6 class="color-helvetica-black font-helvetica-medium">Shure SM58 LC  cardiod vocal mic</h6>
+               <p class="color-red">  brand new </p>
+               <p>FRom cameroon Bafoussam</p>
+                 </div>
+               </div>
+                   <div class="flex justify-content-between">
+                     <div class="article-options d-flex justify-content-between align-items-center mt-0">
+         
+                       <div class="drop-down relative">
+                         <button type="button" class="article-button border px-2">+</button>
+                         <div class="border text-center rounded absolute drop-down-content">
+                          <a href="#">Add to collection</a>
+                          <a href="#">Send an enquiry</a>
+                         <a href="#">More details</a>
+                         </div> 
+                       </div>
+                       <div>
+                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">100$</span>
+                       </div>
+                     </div>
+                    </div>
+              
+              </div>
+            </div>
+            </div>   
+        </div>
+        <div>
+          <div class=" bg-white   ">
+            <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe"></a>
+          
+           
+              
+                <div>
+                  <h6 class="color-helvetica-black font-helvetica-medium"> Elkhart 100AS Student Alto sax</h6>
+              <p class="font-gotham-bold color-red"> brand new </p>
+              <p>FRom cameroon Bafoussam</p>
+                </div>
+                    <div class="article-options d-flex justify-content-between align-items-center mt-0">
+        
+                      <div class="drop-down relative">
+                        <button type="button" class="article-button border px-2">+</button>
+                        <div class="border text-center rounded absolute drop-down-content">
+                         <a href="#">Add to collection</a>
+                         <a href="#">Send an enquiry</a>
+                        <a href="#">More details</a>
+                        </div> 
+                      </div>
+                      <div>
+                        <span class="article-price text-red font-weight-bold color-red font-gotham-bold">140$</span>
+                      </div>
+                    </div>
+            
+             
+           </div> 
+        </div>
+        <div>
+          <div class="  bg-white">
+            <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/BDK-1.jpg" alt="Drum kits"></a>
+                   <h6 class="color-helvetica-black font-helvetica-medium"> BDK-1 full size Starter Drum kit  </h6>
+                   <p class="font-gotham-bold color-red"> brand new </p>
+               <p>FRom cameroon Bafoussam</p>
+                     <div class="article-options d-flex justify-content-between align-items-center mt-0">
+         
+                       <div class="drop-down relative">
+                         <button type="button" class="article-button border px-2">+</button>
+                         <div class="border text-center rounded absolute drop-down-content">
+                          <a href="#">Add to collection</a>
+                          <a href="#">Send an enquiry</a>
+                         <a href="#">More details</a>
+                         </div> 
+                       </div>
+                       <div>
+                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">200$</span>
+                       </div>
+                     </div>
+                     <div class="background-grey relative prev-key-r pl-3 pr-1 ">
+                      <a href="#"> <i class="fa fa-angle-right color-helvetica-black"></i></a>
+                      </div> 
+              </div>
+              </div>
+            </div>
+            <div class="background-grey relative prev-key-l pl-2 ">
+              <a href="#"> <i class="fa fa-angle-left color-helvetica-black"></i></a>
+              </div> 
+      </div>
+    </section>
+    <!-- PLUGINS ONLY -->
+    <section class="background-grey-2 plugins pt-3  center-content  background-grey-2 ">
+      <div class="container border-t width-90-sm">
+        <h6 class="font-helvetica-medium text-center color-helvetica-black py-2">Mini sized instruments</h6>
+      <div class="row test pt-3 border-t" >
+        <div class="bg-white">
+          <article>
+              <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/piano.jpg" alt="guitars"></a>
+            
+                <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano </h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
+            <p>FRom cameroon Bafoussam</p>
                 <div class="flex justify-content-between">
                   <div class="article-options d-flex justify-content-between align-items-center mt-0">
       
@@ -190,159 +299,16 @@
                     </div>
                   </div>
                  </div>
-              </div>
-            </div>
-           
-           </div>
-           
-         </div>
-                </article>
              
-              </div> 
-             <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-2 mb-2">
-              <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/professionalmic.jpg" alt="piano"></a>
-               <div class="row">
-                <div class="col-12 ">
-                 <div class="row">
-                   <div class="col-12">
-                     <h6 class="color-helvetica-black font-helvetica-medium">Shure SM58 LC  cardiod vocal microphone</h6>
-                 <p class="color-red">  brand new </p>
-                 <p>FRom cameroon Bafoussam</p>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-12">
-                     <div class="flex justify-content-between">
-                       <div class="article-options d-flex justify-content-between align-items-center mt-0">
-           
-                         <div class="drop-down relative">
-                           <button type="button" class="article-button border px-2">+</button>
-                           <div class="border text-center rounded absolute drop-down-content">
-                            <a href="#">Add to collection</a>
-                            <a href="#">Send an enquiry</a>
-                           <a href="#">More details</a>
-                           </div> 
-                         </div>
-                         <div>
-                           <span class="article-price text-red font-weight-bold color-red font-gotham-bold">100$</span>
-                         </div>
-                       </div>
-                      </div>
-                   </div>
-                 </div>
-                
-                </div>
-                
-              </div>
-              </div>   
-            <div class="col-lg-2 col-5 bg-white ml-lg-3 ml-md-3 ml-2 ">
-             <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/Saxophone-Free-Download-PNG.png" alt="saxophoe"></a>
-             <div class="row">
-              <div class="col-12 ">
-               <div class="row">
-                 <div class="col-12">
-                   <h6 class="color-helvetica-black font-helvetica-medium"> Elkhart 100AS Student Alto saxophone</h6>
-               <p class="font-gotham-bold color-red"> brand new </p>
-               <p>FRom cameroon Bafoussam</p>
-                 </div>
-               </div>
-               <div class="row">
-                 <div class="col-12">
-                   <div class="flex justify-content-between">
-                     <div class="article-options d-flex justify-content-between align-items-center mt-0">
-         
-                       <div class="drop-down relative">
-                         <button type="button" class="article-button border px-2">+</button>
-                         <div class="border text-center rounded absolute drop-down-content">
-                          <a href="#">Add to collection</a>
-                          <a href="#">Send an enquiry</a>
-                         <a href="#">More details</a>
-                         </div> 
-                       </div>
-                       <div>
-                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">140$</span>
-                       </div>
-                     </div>
-                    </div>
-                 </div>
-               </div>
-              
-              </div>
-              
-            </div>
-            </div> 
-          <div class="col-lg-2 col-5 bg-white ml-3">
-          <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/BDK-1.jpg" alt="Drum kits"></a>
-           <div class="row">
-            <div class="col-12 ">
-             <div class="row">
-               <div class="col-12">
-                 <h6 class="color-helvetica-black font-helvetica-medium"> BDK-1 full size Starter Drum kit By gear 4 music black</h6>
-                 <p class="font-gotham-bold color-red"> brand new </p>
-             <p>FRom cameroon Bafoussam</p>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-12">
-                 <div class="flex justify-content-between">
-                   <div class="article-options d-flex justify-content-between align-items-center mt-0">
-       
-                     <div class="drop-down relative">
-                       <button type="button" class="article-button border px-2">+</button>
-                       <div class="border text-center rounded absolute drop-down-content">
-                        <a href="#">Add to collection</a>
-                        <a href="#">Send an enquiry</a>
-                       <a href="#">More details</a>
-                       </div> 
-                     </div>
-                     <div>
-                       <span class="article-price text-red font-weight-bold color-red font-gotham-bold">200$</span>
-                     </div>
-                   </div>
-                  </div>
-               </div>
-             </div>
-            
-            </div>
-            
-          </div>
-          </div>
-          </div>
-     </div> 
-    </div>
-      </div>  
-   
-    </section>
-    <!-- PLUGINS ONLY -->
-    <section class="background-grey-2 plugins pt-3 border-t center-content background-grey-2 ">
-      <div class="container  ">
-        <div class="row  ">
-          <div class="row  ">
-            <article class=" section-summary ">
-            <div class="col-12 py-3">
-              <h6> Mini sized instruments</h6>
-            </div>
           </article>
-          </div>
-        <div class="row pb-5 border-t border-tb-solid  ">
-          <div class="row  center-content pt-3 ">
-              <div class="col-lg-2 col-5 bg-white ml-3 mb-2 ">
-                <article>
-                 <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/WHD-burch.jpg" alt="birch"></a>
-                  <div class="next-prev-width background-grey relative rounded-prev pl-3">
-                    <a href="#" class="previous color-red">&laquo; </a>
-                   </div>
-                  <div class="row">
-           <div class="col-12 ">
-            <div class="row">
-              <div class="col-12">
-                <h6 class="color-helvetica-black font-helvetica-medium"> WHD birch 13"x35 snare Drum</h6>
-                <p class="font-gotham-bold color-red"> brand new </p>
+        </div>
+        <div class="bg-white">
+          <article>
+              <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/mixer.jpg" alt="guitars"></a>
+            
+                <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano </h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
             <p>FRom cameroon Bafoussam</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
                 <div class="flex justify-content-between">
                   <div class="article-options d-flex justify-content-between align-items-center mt-0">
       
@@ -355,160 +321,91 @@
                       </div> 
                     </div>
                     <div>
-                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">$90</span>
+                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">80$</span>
                     </div>
                   </div>
                  </div>
-              </div>
-            </div>
-           
-           </div>
-           
-         </div>
-                </article>
              
-              </div> 
-             <div class="col-lg-2 col-5 ml-3 bg-white mb-2">
-               <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/xylophone.jpg" alt="xylophone"></a>
-               <div class="row">
-                <div class="col-12 ">
-                 <div class="row">
-                   <div class="col-12">
-                     <h6 class="color-helvetica-black font-helvetica-medium"> WHD ochestral xylophone with resonators</h6>
-                     <p class="font-gotham-bold color-red"> brand new </p>
-                 <p>FRom cameroon Bafoussam</p>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-12">
-                     <div class="flex justify-content-between">
-                       <div class="article-options d-flex justify-content-between align-items-center mt-0">
-           
-                         <div class="drop-down relative">
-                           <button type="button" class="article-button border px-2">+</button>
-                           <div class="border text-center rounded absolute drop-down-content">
-                            <a href="#">Add to collection</a>
-                            <a href="#">Send an enquiry</a>
-                           <a href="#">More details</a>
-                           </div> 
-                         </div>
-                         <div>
-                           <span class="article-price text-red font-weight-bold color-red font-gotham-bold">$60</span>
-                         </div>
-                       </div>
-                      </div>
-                   </div>
-                 </div>
-                
-                </div>
-                
-              </div>
-              </div>   
-            <div class="col-lg-2 col-5 ml-3 bg-white">
-            <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/tunderbolt.jpg" alt="Thunderbolt"></a>
-             <div class="row">
-              <div class="col-12 ">
-               <div class="row">
-                 <div class="col-12">
-                   <h6 class="color-helvetica-black font-helvetica-medium"> Disc apogee element 24 thunderbolt</h6>
-                <p class="font-gotham-bold color-red"> brand new </p>
-               <p>FRom cameroon Bafoussam</p>
-                 </div>
-               </div>
-               <div class="row">
-                 <div class="col-12">
-                   <div class="flex justify-content-between">
-                     <div class="article-options d-flex justify-content-between align-items-center mt-0">
-         
-                       <div class="drop-down relative">
-                         <button type="button" class="article-button border px-2">+</button>
-                         <div class="border text-center rounded absolute drop-down-content">
-                          <a href="#">Add to collection</a>
-                          <a href="#">Send an enquiry</a>
-                         <a href="#">More details</a>
-                         </div> 
-                       </div>
-                       <div>
-                         <span class="article-price text-red font-weight-bold color-red font-gotham-bold">$75</span>
-                       </div>
-                     </div>
+          </article>
+        </div>
+        <div class="bg-white">
+          <article>
+              <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/coupon1.jpg" alt="guitars"></a>
+            
+                <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano </h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
+            <p>FRom cameroon Bafoussam</p>
+                <div class="flex justify-content-between">
+                  <div class="article-options d-flex justify-content-between align-items-center mt-0">
+      
+                    <div class="drop-down relative">
+                      <button type="button" class="article-button border px-2">+</button>
+                      <div class="border text-center rounded absolute drop-down-content">
+                       <a href="#">Add to collection</a>
+                       <a href="#">Send an enquiry</a>
+                      <a href="#">More details</a>
+                      </div> 
                     </div>
-                 </div>
-               </div>
-              
-              </div>
-              
-            </div>
-            </div> 
-          <div class="col-lg-2 col-5 ml-3 mr-md-3 bg-white">
-          <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/earphones.jpg" alt="earphones"></a>
-           <div class="row">
-            <div class="col-12 ">
-             <div class="row">
-               <div class="col-12">
-                 <h6 class="color-helvetica-black font-helvetica-medium"> Subzero wireless bluetooth headphones Black </h6>
-              <p class="font-gotham-bold color-red"> brand new </p>
-             <p>FRom cameroon Bafoussam</p>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-12">
-                 <div class="flex justify-content-between">
-                   <div class="article-options d-flex justify-content-between align-items-center mt-0">
-       
-                     <div class="drop-down relative">
-                       <button type="button" class="article-button border px-2">+</button>
-                       <div class="border text-center rounded absolute drop-down-content">
-                        <a href="#">Add to collection</a>
-                        <a href="#">Send an enquiry</a>
-                       <a href="#">More details</a>
-                       </div> 
-                     </div>
-                     <div>
-                       <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
-                     </div>
-                   </div>
+                    <div>
+                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">80$</span>
+                    </div>
                   </div>
-               </div>
-             </div>
+                 </div>
+             
+          </article>
+        </div>
+        <div class="bg-white">
+          <article>
+              <a href="./search.html"><img class="width-100 fixed-height-1 " src="./assets/images/guitarb.jpg" alt="guitars"></a>
             
-            </div>
-            
-          </div>
-          </div>
-          </div>
-        </div>  
+                <h6 class="color-helvetica-black font-helvetica-medium"> Juarez jrz21UK 21 soprano </h6>
+            <p class="font-gotham-bold color-red"> brand new </p>
+            <p>FRom cameroon Bafoussam</p>
+                <div class="flex justify-content-between">
+                  <div class="article-options d-flex justify-content-between align-items-center mt-0">
+      
+                    <div class="drop-down relative">
+                      <button type="button" class="article-button border px-2">+</button>
+                      <div class="border text-center rounded absolute drop-down-content">
+                       <a href="#">Add to collection</a>
+                       <a href="#">Send an enquiry</a>
+                      <a href="#">More details</a>
+                      </div> 
+                    </div>
+                    <div>
+                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">80$</span>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="background-grey relative prev-key-r pl-3 pr-1 ">
+                  <a href="#"> <i class="fa fa-angle-right color-helvetica-black"></i></a>
+                  </div> 
+          </article>
+        </div>
       </div>
+      <div class="background-grey relative prev-key-l pl-2 ">
+        <a href="#"> <i class="fa fa-angle-left color-helvetica-black"></i></a>
+      </div>
+
     </div>
+
+
+     
     </section>
     <!-- SECTION PIANOS ONLY -->
-    <section class="background-grey-2 pianos-only center-content    pb-5">
-      <div class="container ">
-      <div class="row center-content">
-        <div class="row heading ">
-          <div class="col-lg-12 col-md-12  py-3">
-        <h5>Musical coupons</h5>
-          </div>
-        </div>
-        <div class="row border-t pt-5">
-            <div class="col-lg-2 col-5  bg-white ml-3 mb-2">
+    <section class="background-grey-2 pianos-only center-content    ">
+      <div class="container  border-t width-90-sm bt-g">
+          <h6 class="font-helvetica-medium color-helvetica-black text-center pt-1">Musical coupons</h6>
+        <div class=" test row border-t  pt-5">
+            <div class="  bg-white ">
               <article>
                <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/coupon1.jpg" alt="guitar wall hangers"></a>
-                <div class="next-prev-width background-grey relative rounded-prev pl-3">
-                  <a href="#" class="previous color-red">&laquo; </a>
-                 </div>
-                <div class="row">
-         <div class="col-12 ">
-          <div class="row">
-            <div class="col-12">
               <h6 class="color-helvetica-black font-helvetica-medium"> ARTIC C scale24 holes</h6>
            <p class="font-gotham-bold color-red"> brand new </p>
           <p>FRom cameroon Bafoussam</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="flex justify-content-between">
+    
+     
+            
                 <div class="article-options d-flex justify-content-between align-items-center mt-0">
     
                   <div class="drop-down relative">
@@ -523,30 +420,15 @@
                     <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                   </div>
                 </div>
-               </div>
-            </div>
-          </div>
-         
-         </div>
-         
-       </div>
               </article>
-           
-            </div> 
-           <div class="col-lg-2 col-5 ml-3  bg-white mb-2">
+       </div>
+           <div class="  bg-white ">
+             <article>
             <a href="./search.html"> <img class="width-100 fixed-height-1" src="./assets/images/coupon2.webp" alt="piano"></a>
-             <div class="row">
-              <div class="col-12 ">
-               <div class="row">
-                 <div class="col-12">
-                   <h6 class="color-helvetica-black font-helvetica-medium"> Kadence keybord stand</h6>
+            
+                   <h6 class="color-helvetica-black font-helvetica-medium"> Kadence keyboard stand</h6>
                 <p class="font-gotham-bold color-red"> brand new </p>
                <p>FRom cameroon Bafoussam</p>
-                 </div>
-               </div>
-               <div class="row">
-                 <div class="col-12">
-                   <div class="flex justify-content-between">
                      <div class="article-options d-flex justify-content-between align-items-center mt-0">
          
                        <div class="drop-down relative">
@@ -561,28 +443,17 @@
                          <span class="article-price text-red font-weight-bold color-red font-gotham-bold">$100</span>
                        </div>
                      </div>
-                    </div>
-                 </div>
-               </div>
-              
-              </div>
-              
-            </div>
-            </div>   
-          <div class="col-lg-2 col-5 ml-3  bg-white">
+          
+            </article>
+          </div>
+          <div class="  bg-white">
+            <article>
            <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/coupon-3.jpg" alt="guitar wall hanger"></a>
-           <div class="row">
-            <div class="col-12 ">
-             <div class="row">
-               <div class="col-12">
+        
                  <h6 class="color-helvetica-black font-helvetica-medium"> Guitar wall hanger</h6>
               <p class="font-gotham-bold color-red"> brand new </p>
              <p>FRom cameroon Bafoussam</p>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-12">
-                 <div class="flex justify-content-between">
+            
                    <div class="article-options d-flex justify-content-between align-items-center mt-0">
        
                      <div class="drop-down relative">
@@ -597,28 +468,15 @@
                        <span class="article-price text-red font-weight-bold color-red font-gotham-bold">$85</span>
                      </div>
                    </div>
-                  </div>
-               </div>
+                  </article>
              </div>
-            
-            </div>
-            
-          </div>
-          </div> 
-        <div class="col-lg-2 col-5 ml-3  bg-white">
+        <div class="  bg-white">
+          <article>
          <a href="./search.html"><img class="width-100 fixed-height-1" src="./assets/images/plugins.jpg" alt="Digital plugins"></a>
-         <div class="row">
-          <div class="col-12 ">
-           <div class="row">
-             <div class="col-12">
                <h6 class="color-helvetica-black font-helvetica-medium"> Digital plugins</h6>
             <p class="font-gotham-bold color-red"> brand new </p>
            <p>FRom cameroon Bafoussam</p>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-12">
-               <div class="flex justify-content-between">
+          
                  <div class="article-options d-flex justify-content-between align-items-center mt-0">
      
                    <div class="drop-down relative">
@@ -632,30 +490,32 @@
                    <div>
                      <span class="article-price text-red font-weight-bold color-red font-gotham-bold">40$</span>
                    </div>
-                 </div>
-                </div>
-             </div>
+              
            </div>
+           <div class="background-grey relative prev-key-r pl-3 pr-1 ">
+            <a href="#"> <i class="fa fa-angle-right color-red"></i></a>
+            </div> 
           
-          </div>
+          </article>
           
         </div>
-        </div>
-        </div>
-        </div>
+      </div>
+         <div class="background-grey relative prev-key-l pl-2 ">
+          <a href="#"> <i class="fa fa-angle-left color-helvetica-black"></i></a>
+         </div>
       </div>
     </section>
   </main>
   <footer class="pt-3 bg-white center-content ml-lg-auto ml-md-auto mr-lg-auto mr-md-auto mx-3">
     <div class="container categories">
       <div class="row ml-auto mr-auto">
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6  col-12">
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-between">
-              <div class="music-icon ">
-                <span><i class='fas fa-music color-red font-gotham-bold'></i></span>
+            <div class="col-lg-5s col-md-6 col-12 d-flex justify-content-center">
+              <div class="music-icon ml-3 ">
+                <span><i class='fas fa-music color-red font-gotham-bold '></i></span>
               </div>
-              <div class="name-of-icon color-red font-gotham-bold">
+              <div class="name-of-icon color-red font-gotham-bold ml-3">
                 MUSIC SHOP
               </div>
             </div>
@@ -670,51 +530,38 @@
           </div>
 
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="color-red font-gotham-bold">CATEGORIES</h6>
-            </div>
-          </div>
-          <div class="row">
+        <div class="col-lg-6  col-12">
+          <div class="row justify-content-center">
             <div class="col-4">
+                <h6 class="color-red font-gotham-bold text-center">OUR SERVICES</h6>
               <ul class="footer-links-group footer-group-double d-grid font-gotham-light list-unstyled">
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Real estate</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Automotive</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Electronica</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Real estate</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Automotive</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Electronica</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Real estate</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Automotive</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Electronica</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Real estate</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Automotive</a></li>
-                <li><a class="text-decoration-none color-helvetica-grey" href="#">Electronica</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">payment option</a></li>
+                <li class="text-center" ><a class="text-decoration-none color-helvetica-grey" href="#">delivery information</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">click and collect</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Need help</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">FAQ</a></li>
+               
               </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-capitalise color-red pb-2">CREDITS</h6>
+              <h6 class="footer-links-title text-capitalise text-center color-red pb-2">OUR POLICIES</h6>
 
         <ul class="footer-links-group font-gotham-light list-unstyled">
-          <li><a  class="text-decoration-none color-helvetica-grey" href="#">Gadgets</a></li>
-          <li><a class="text-decoration-none color-helvetica-grey" href="#">real estate</a></li>
-          <li><a class="text-decoration-none color-helvetica-grey" href="#">Microverse</a></li>
-          <li><a class="text-decoration-none color-helvetica-grey" href="#">Clothing</a></li>
-          <li><a class="text-decoration-none color-helvetica-grey" href="">Automotive</a></li>
-          <li><a class="text-decoration-none color-helvetica-grey" href="">Electronica</a></li>
+          <li class="text-center"><a  class="text-decoration-none color-helvetica-grey text-center" href="#">Return</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Security</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Privacy</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Terms and conditions</a></li>
         </ul>
             </div>
             <div class="col-4">
-              <h6 class="footer-links-title text-upcase color-red pb-2">NAVIGATION</h6>
+              <h6 class="footer-links-title text-upcase color-red text-center pb-2">NAVIGATION</h6>
 
                 <ul class="footer-links-group font-gotham-light list-unstyled">
-                  <li><a class="text-decoration-none color-helvetica-grey" href="#">Jewerlries</a></li>
-                  <li><a class="text-decoration-none color-helvetica-grey" href="#" title="Flaticon">HOME</a></li>
-                  <li><a class="text-decoration-none color-helvetica-grey" href="#">SGN IN</a></li>
-                  <li><a class="text-decoration-none color-helvetica-grey" href="#">SIGN UP</a></li>
-                  <li><a class="text-decoration-none color-helvetica-grey" href="">TERMS AND CONDITIONS</a></li>
-                  <li><a class="text-decoration-none color-helvetica-grey" href="">FAQS</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#" title="Flaticon">HOME</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">SGN IN</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">SIGN UP</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="">TERMS AND CONDITIONS</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="">FAQS</a></li>
                 </ul>
             </div>
             </div>
