@@ -1,6 +1,6 @@
 # Online-Shop-for-Musical-instruments
-This is a capstone project for students at the end of html/css module . This project tests a sythensis of all what the stuents has learned.
- The  project is an online shop for musical instruments and the purpose is to make it responsive across the following viewports Large screens(laptots) medium screens(tablets) and small screens(Some some smart phones)
+This is a capstone project for students at the end of the HTML/CSS module. This project tests a synthesis of all that the students have learned.
+ The  project is an online shop for musical instruments and the purpose is to make it responsive across the following viewports Large screens(laptops) medium screens(tablets) and small screens(Some some smartphones)
  
 ![screenshot](./assets/images/shot1.png)
 ![screenshot](./assets/images/short2.png)
@@ -20,7 +20,7 @@ This is a capstone project for students at the end of html/css module . This pro
 2. run npm run test to check the HTML and CSS files.
 3. run npm run watch to start watching for SCSS changes.
 4. Deployment
-5. Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
+5. Install and run a live server plugin on your IDE/Text editor and run it from the root directory.
 
 ## Live Demo
 
