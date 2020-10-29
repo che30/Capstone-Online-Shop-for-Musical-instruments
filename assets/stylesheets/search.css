@@ -64,6 +64,14 @@ body {
   background-color: #080707;
   height: 55px;
 }
+.background-red {
+  background-color: #d35266;
+}
+
+ul li button {
+  border: 1px solid #d35266;
+  border-radius: 5px;
+}
 
 .gliding-menu {
   background-image: linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%);
@@ -75,6 +83,8 @@ body {
 .home-icon {
   background: #d35266;
 }
+
+
 
 .color-red {
   color: #d35266;
@@ -279,7 +289,10 @@ select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .nav-list-1 {
+    width: 100%;
 
+}
   .all-instruments {
     display: none;
   }
@@ -327,6 +340,10 @@ select {
   .form-post {
     margin-right: 20%;
   }
+  .nav-list-1 {
+    width: 60%;
+
+}
 }
 
 @media (max-width: 767px) and (min-width: 567px) {
