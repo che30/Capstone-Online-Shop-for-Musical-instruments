@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheets/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <title>Online shop for musical  instruments</title>
+  </head>
+  <body>
+  <header>
+   <nav class="align-content-center  ">
+    <div class="navbar  pt-auto mb-auto navbar-expand-lg navbar-expand-expand-md navbar-expand-sm   justify-content-between align-items-center ">
+        <ul class="list-unstyled nav-list-1   d-flex justify-content-around align-items-center pt-3">
+       <li class="music-icon same-width pr-md-3 m "><i class='fas fa-music'></i></li>
+       <li ><a class="music text-white" href="#">MUSIC</a></li>
+       <li class="nav-top-left pl-2 all-instruments d-none d-lg-block  "><i class="fa fa-th-list same-width"></i></li>
+       <li  class=" text-decoration-none d-none d-lg-block text-white pl-md-2"><a class="text-white"  href="#">All instruments</a></li>
+       <li class="nav-top-left pl-2 "><i class="fa fa-home "></i></li>
+       <li><a class="pl-2 home text-white color-red pr-2" href="./index.html">HOME</a></li>
+       <li><button class="background-red text-white py-1 px-1 font-gotham-bold ad">POST AN AD</button></li>
+      </ul>
+ 
+  
+     <div class=" nav-bottom d-md-flex d-lg-flex d-none align-items-center align-content-center align-items-baseline ">
+      <ul class="list-unstyled d-flex  last-list pt-3 ">
+        <li class="pr-2"  ><a href="#"><ion-icon class="same-width avatar color-grey text-white" name="person-outline"></ion-icon></a></li>
+        <li class=""><a class="text-grey " href="#">LOGIN </a></li>
+      </ul>
+    </div>
+    </div> 
+    
+      
+</nav>
+  </header>
+  <main >
+    <section class="container-fluid gliding-menu pt-3  mb-0">
+      <div class="container-fluid">
+        <div class="row">
+         
+          <div class="col-12   d-flex flex-column align-content-center align-items-center">
+            <h1 class="text-white font-gotham-bold font-s">An online music shop</h1>
+    
+   
+           <h2 class="text-white font-gotham-light heading-sec">buying and selling couldn't be this simpler</h2>
+        </div>
+      </div>
+      <div class="row  pb-5 mb-5 ml-5">
+        <div class="col-12">
+          <form action="/index.html" class="d-lg-flex color-helvetica-grey font-helvetica-light pt-1 justify-content-center form-post align-content-center ">
+            <div class="border-red-right bg-white px-3 pl-2 pt-2">
+              <label class="color-grey font-helvetica-light pt-1 label-s  pt-2 "  for="instruments" ></label>
+              <select name="instruments" class="color-helvetica-grey font-gotham-light pt-2" id="instruments" >
+                <option class=" border-none"  > All categories</option>
+                <option class ="order-none" value="Guitar" >Guitar</option>
+                <option  value="Piano">piano</option>
+                <option  value="violin">violin</option>
+                <option  value="saxophone">saxophone</option>
+              </select>
+            </div>
+            <div class="border-red-right bg-white  px-3 pt-1">
+              <input type="text" class="input-properties-1 " placeholder="what are you searching for?">
+            </div>
+            <div class="bg-white  pl-5 pt-1  pr-5">
+              <input type="text" placeholder="country" class="input-properties-2 pl-1">
+            </div>
+            <button type="submit" class="search-btn ml-lg-0  background-black  text-white   font-helvetica-light color-helvetica-grey pb-1 ">search</button>
+          </form>
+        </div>
+
+      </div> 
+    </div>
+  </section>
+  <section class="background-grey second-section">
+    <section class="container search-results background-grey  ">
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-3 col-12 ">
+          <h6 class="gotham-bold br-grey border text-center ">Type</h6>
+          <div class="d-flex justify-content-between">
+            <div>
+              <form action="post">
+                <input type="checkbox" id="used" name="Type" value=" USED">
+                <label for="used"  class="pl-lg-4 pl-1  font-helvetica-light"> used</label>
+              </form>
+            </div>
+            <div>
+              <form action="GET">
+           
+                <input type="checkbox" id="new"  name="new" value="new">
+                <label for="new"  class=" font-helvetica-light pl-lg-3 pl-2"> new</label>
+              </form>
+            </div>
+          </div>
+         <div class="checkbox-options">
+          <div class="grid1-2">
+            <h6 class="font-helvetica-medium b-567 border text-center ">category</h6>
+          <form action="GET">
+            <input type="checkbox" id="used1"  name="used" value="instrument">
+            <label for="used1"  class="pr-4 font-helvetica-light"> used</label><br>
+            <input type="checkbox" id="new1" name="new" value="new">
+            <label for="new1" class=" font-helvetica-light"> New</label><br>
+            <input type="checkbox" id="new2" name="company" value="company">
+            <label for="new2" class=" font-helvetica-light">company</label><br>
+          </form>
+          </div>
+         <div>
+          <div class="grid-2-3">
+            <h6 class="b-567 gotham-light border text-center">category</h6>
+          <form action="GET">
+            <input type="checkbox" id="used2"  name="Type" value=" USED">
+            <label for="used2" class="pr-4  font-helvetica-light"> used</label><br>
+            <input type="checkbox" id="new3"  name="new" value="new">
+            <label for="new3" class=" font-helvetica-light"> New</label><br>
+            <input type="checkbox" id="new4"  name="company" value="company">
+            <label for="new4" class=" font-helvetica-light">company</label><br>
+          </form>
+         </div>
+          </div>
+         <div>
+          <h6 class="gotham-bold border b-567 text-center">category</h6>
+          <form action="/action_page.php">
+            <input type="checkbox" id="used3" name="Type" value=" USED">
+            <label for="used3" class="pr-4  font-helvetica-light"> used</label><br>
+            <input type="checkbox" id="new5"  name="new" value="new">
+            <label for="new5" class=" font-helvetica-light"> New</label><br>
+            <input type="checkbox" id="new6" name="company" value="company">
+            <label for="new6" class=" font-helvetica-light">company</label><br>
+          </form>
+        </div>
+         </div>
+         </div>
+        <div class="col-lg-8 col-md-8 col-12  ">
+          <div class="row border-right-grey">
+          <div class="col-12 bt-g  ">
+           <div class="row ">
+            <h3 class="font-gotham-light abt-search text-center py-3">About 60 results correspond to your search below  </h3>
+           </div>
+            
+      
+         </div>
+       <div class="container-fluid bt-g mt-2 border">
+        <div class="row pb-5 pb-5 pt-3 ml-2 mr-2">
+          <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+            <img class="figure-img img-fluid" src="./assets/images/earphones.jpg" alt="saxophone">
+        </div>
+        <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+          <div class="">
+           <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+             <a href="#" class="previous color-red">&laquo;</a>
+             <a href="#" class="next color-red">&raquo;</a>
+            </div>
+           <p class="font-helvetica-medium ">Subzero wireless bluetooth headphones Black</p>
+         
+          <div>
+           <p class="font-helvetica-light">brand new</p>
+          </div>
+        <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
+         <div class="d-flex justify-content-between">
+           <div>
+         <span class="font-gotham-light">25 oct 2020</span>
+           </div>
+          <div class="d-flex">
+           <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+            <span><a class="text-white" href="#">  $80</a></span>
+           </div>
+           <div class="price-tag background-color-red text-white font-gotham-light pl-4 py-2">
+               order
+           </div>
+          </div>
+         </div>
+       </div>
+       </div>
+     </div>
+       </div>
+    <div class="container-fluid border mt-2 ">
+      <div class="row pb-5 pt-2  ml-2 mr-2">
+        <div class="col-4  ml-auto mr-auto ml-md-0 ml-lg-0">
+          <img class="figure-img img-fluid" src="./assets/images/guitarb.jpg" alt="saxophone">
+      </div>
+      <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+        <div class="">
+          <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+            <a href="#" class="previous color-red">&laquo;</a>
+            <a href="#" class="next color-red">&raquo;</a>
+           </div>
+           <p class="font-helvetica-medium ">Juarez jrz21UK 21 soprano Ukelele kit</p>
+          
+           <div>
+            <p class="font-helvetica-light">brand new</p>
+           </div>
+      <p><span class="gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
+       <div class="d-flex justify-content-between">
+         <div>
+       <span class="font-helvetica-light">25 oct 2020</span>
+         </div>
+        <div class="d-flex">
+         <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+           <span><a href="#" class="text-white">$100</a></span>
+         </div>
+        </div>
+       </div>
+     </div>
+     </div>
+   </div>
+    </div>
+   <div class="container-fluid border mt-2">
+    <div class="row pb-5 pt-2  ml-2 mr-2">
+      <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+        <img class="figure-img img-fluid height-242" src="./assets/images/coupon2.webp" alt="saxophone">
+    </div>
+    <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+      <div class="">
+        <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+          <a href="#" class="previous color-red">&laquo;</a>
+          <a href="#" class="next color-red">&raquo;</a>
+         </div>
+         <p class="font-helvetica-medium ">LKadence keybord stand
+        
+          
+          </p>
+            
+         <div>
+          <p class="font-helvetica-light">  brand new</p>
+         </div>
+    <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
+     <div class="d-flex justify-content-between">
+       <div>
+     <span class="font-helvetica-light">25 oct 2020</span>
+       </div>
+      <div class="d-flex">
+       <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+        <a class="text-white" href="#"> $120</a>
+       </div>
+      </div>
+     </div>
+   </div>
+   </div>
+  </div>
+   </div>
+<div class="container-fluid border mt-2">
+  <div class="row pb-5 pt-2  ml-2 mr-2">
+    <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+      <img class="figure-img img-fluid height-242" src="./assets/images/plugins.jpg" alt="saxophone">
+  </div>
+  <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+    <div class="">
+      <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+        <a href="#" class="previous color-red">&laquo;</a>
+        <a href="#" class="next color-red">&raquo;</a>
+       </div>
+       <p class="font-helvetica-medium ">LKadence keybord stand</p>
+          
+       <div>
+        <p class="font-helvetica-light">brand new</p>
+       </div>
+  <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
+   <div class="d-flex justify-content-between">
+     <div>
+   <span class="font-helvetica-light">25 oct 2020</span>
+     </div>
+    <div class="d-flex">
+     <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+      <a class="text-white" href="#"> $120</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="container-fluid border mt-2">
+  <div class="row pb-5 pt-2 ml-2 mr-2">
+    <div class="col-4 ml-auto mr-auto ml-md-0 ml-lg-0">
+      <img class="figure-img img-fluid height-242" src="./assets/images/coupon1.jpg" alt="saxophone">
+  </div>
+  <div class="col-lg-8 col-md-8 col-12 d-flex flex-column">
+    <div class="">
+      <div class="relative next-prev background-black next-prev-width next-prev py-2 pl-2">
+        <a href="#" class="previous color-red">&laquo;</a>
+        <a href="#" class="next color-red">&raquo;</a>
+       </div>
+       <p class="font-helvetica-medium ">LKadence keybord stand</p>
+          
+       <div>
+        <p class="font-helvetica-light">brand new</p>
+       </div>
+  <p><span class="font-gotham-bold">LOCATION</span> <span class="font-gotham-light">213 street stade Bamendzi bafoussam</span></p>
+   <div class="d-flex justify-content-between">
+     <div>
+   <span class="font-helvetica-light">25 oct 2020</span>
+     </div>
+    <div class="d-flex">
+     <div class="background-color-red text-white font-gotham-light price-tag pl-4 py-2">
+      <a class="text-white" href="#"> $120</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+    </section>
+  </section>
+  </main>
+  <footer class="pt-3 bg-white center-content ml-lg-auto ml-md-auto mr-lg-auto mr-md-auto mx-3">
+    <div class="container categories">
+      <div class="row ml-auto mr-auto">
+        <div class="col-lg-6  col-12">
+          <div class="row">
+            <div class="col-lg-5s col-md-6 col-12 d-flex justify-content-center">
+              <div class="music-icon ml-3 ">
+                <span><i class='fas fa-music color-red font-gotham-bold '></i></span>
+              </div>
+              <div class="name-of-icon color-red font-gotham-bold ml-3">
+                MUSIC SHOP
+              </div>
+            </div>
+            <div class="row">
+              <p class="font-gotham-light">
+                Entire contents Copyright © for The best shop Inc. The best shop is
+                yet to be  a registered trademark of XXX Inc. All Rights Reserved. Publisher does not accept liability for incorrect spelling, printing errors (including prices), 
+                incorrect manufacturer's specifications or changes, or grammatical inaccuracies in any product included in the Musician's 
+                Friend catalog or website. Prices subject to change without notice.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6  col-12">
+          <div class="row justify-content-center">
+            <div class="col-4">
+                <h6 class="color-red font-helvetica-light text-center">OUR SERVICES</h6>
+              <ul class="footer-links-group footer-group-double d-grid font-gotham-light list-unstyled">
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">payment option</a></li>
+                <li class="text-center" ><a class="text-decoration-none color-helvetica-grey" href="#">delivery information</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">click and collect</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Need help</a></li>
+                <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">FAQ</a></li>
+               
+              </ul>
+            </div>
+            <div class="col-4">
+              <h6 class="footer-links-title text-capitalise text-center font-helvetica-light color-red pb-2">OUR POLICIES</h6>
+
+        <ul class="footer-links-group font-gotham-light list-unstyled">
+          <li class="text-center"><a  class="text-decoration-none color-helvetica-grey text-center" href="#">Return</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Security</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Privacy</a></li>
+          <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">Terms and conditions</a></li>
+        </ul>
+            </div>
+            <div class="col-4">
+              <h6 class="footer-links-title text-upcase color-red text-center font-helvetica-light pb-2">NAVIGATION</h6>
+
+                <ul class="footer-links-group font-gotham-light list-unstyled">
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#" title="Flaticon">HOME</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">SGN IN</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="#">SIGN UP</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="">TERMS AND CONDITIONS</a></li>
+                  <li class="text-center"><a class="text-decoration-none color-helvetica-grey" href="">FAQS</a></li>
+                </ul>
+            </div>
+            </div>
+            
+          </div>
+          <div class="footer-copyright d-lg-flex d-md-flex justify-content-between align-items-center mx-auto">
+            <div class="footer-copyright-left">
+              <p class="font-helvetica-light text-center my-4">
+                This website is was designed 
+                by <a href="https://github.com/che/30" class="font-weight-bold color-red">CHE NSOH BLANCHARD</a>
+                <span>&copy; Copyright 2020 - 2021 </span>
+              </p>
+            </div>
+            <ul class="ml-3 d-flex align-items-center justify-content-center my-3 h3 list-unstyled">
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-facebook"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-linkedin"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-twitter"></i></a></li>
+              <li class="mr-3"><a href="#"><i class="fa color-helvetica-grey fa-google"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
