@@ -64,6 +64,7 @@ body {
   background-color: #080707;
   height: 55px;
 }
+
 .background-red {
   background-color: #d35266;
 }
@@ -83,8 +84,6 @@ ul li button {
 .home-icon {
   background: #d35266;
 }
-
-
 
 .color-red {
   color: #d35266;
@@ -289,10 +288,11 @@ select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .nav-list-1 {
     width: 100%;
+  }
 
-}
   .all-instruments {
     display: none;
   }
@@ -340,10 +340,10 @@ select {
   .form-post {
     margin-right: 20%;
   }
+
   .nav-list-1 {
     width: 60%;
-
-}
+  }
 }
 
 @media (max-width: 767px) and (min-width: 567px) {
