@@ -81,6 +81,10 @@ ul li button {
   background-size: cover;
 }
 
+.heading-sec {
+  font-size: 15px;
+}
+
 .home-icon {
   background: #d35266;
 }
@@ -144,6 +148,7 @@ select {
 
 .abt-search {
   padding-left: 10%;
+  font-size: 20px;
 }
 
 .border-all-round {
@@ -236,13 +241,9 @@ select {
   .border-red-right {
     border-right: 0;
   }
-  .search-btn {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
 
   .search-btn {
-    margin-left: 40%;
+    margin-left: 50%;
     margin-right: 50%;
   }
 

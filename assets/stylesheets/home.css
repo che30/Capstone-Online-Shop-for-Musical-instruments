@@ -135,7 +135,11 @@ select {
 
 /* MAIN-SECTION */
 .center-content {
-  width: 97%;
+  width: 98%;
+}
+
+.heading-sec {
+  font-size: 15px;
 }
 
 .background-color-red {
@@ -160,6 +164,30 @@ select {
   width: 100%;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.font-h3 {
+  font-size: 15px;
+}
+
+.carousel-control-next-icon::after {
+  content: '>';
+  font-size: 30px;
+  color: red;
+}
+
+.carousel-control-prev-icon::after {
+  content: '<';
+  font-size: 30px;
+  color: red;
+}
+
 .input-properties-1 {
   width: 200px;
   border: 5px solid white;
@@ -178,13 +206,14 @@ select {
 .border-red-right {
   border-right: 2px solid #d35266;
 }
+
 ul li button {
   border: 1px solid #d35266;
   border-radius: 5px;
 }
+
 .background-red {
   background-color: #d35266;
-
 }
 
 .music-icon-2 {
@@ -218,7 +247,7 @@ ul li button {
 
 .prev-hot-r {
   width: 30px;
-  right: -99%;
+  right: -90%;
   top: -30px;
   border-radius: 80px;
 }
@@ -235,7 +264,7 @@ div > .fa-angle-right {
 }
 
 .prev-key-r {
-  right: -260px;
+  right: -240px;
   width: 30px;
   border-radius: 80px;
   bottom: 130px;
@@ -338,6 +367,10 @@ div > .fa-angle-right {
 /* PIANOS ONLY */
 
 /* FOOTER */
+.footer-p {
+  font-size: 15px;
+  overflow: hidden;
+}
 
 .fixed-withf-1 {
   max-width: 300px;
@@ -346,8 +379,8 @@ div > .fa-angle-right {
 @media (max-width: 566px) {
   .border-red-right {
     border-right: 0;
-  } 
- 
+  }
+
   .width-100 {
     width: 160px;
   }
@@ -390,7 +423,7 @@ div > .fa-angle-right {
   }
 
   .prev-key-r {
-    right: -200px;
+    right: -150px;
   }
 }
 
@@ -398,14 +431,15 @@ div > .fa-angle-right {
   .all-instruments {
     display: none;
   }
+
   ul li button {
     width: 150px;
-    }
+  }
 
   .nav-list-1 {
     width: 100%;
+  }
 
-}
   .input-properties-1 {
     width: 100px;
     border: 5px solid white;
@@ -452,10 +486,10 @@ div > .fa-angle-right {
   .prev-key-l {
     left: -30px;
   }
+
   .nav-list-1 {
     width: 60%;
-
-}
+  }
 }
 
 @media (max-width: 767px) and (min-width: 567px) {
