@@ -178,14 +178,13 @@ select {
 .border-red-right {
   border-right: 2px solid #d35266;
 }
-
 ul li button {
   border: 1px solid #d35266;
   border-radius: 5px;
 }
-
 .background-red {
   background-color: #d35266;
+
 }
 
 .music-icon-2 {
@@ -347,8 +346,8 @@ div > .fa-angle-right {
 @media (max-width: 566px) {
   .border-red-right {
     border-right: 0;
-  }
-
+  } 
+ 
   .width-100 {
     width: 160px;
   }
@@ -399,15 +398,14 @@ div > .fa-angle-right {
   .all-instruments {
     display: none;
   }
-
   ul li button {
     width: 150px;
-  }
+    }
 
   .nav-list-1 {
     width: 100%;
-  }
 
+}
   .input-properties-1 {
     width: 100px;
     border: 5px solid white;
@@ -454,10 +452,10 @@ div > .fa-angle-right {
   .prev-key-l {
     left: -30px;
   }
-
   .nav-list-1 {
     width: 60%;
-  }
+
+}
 }
 
 @media (max-width: 767px) and (min-width: 567px) {

@@ -236,6 +236,15 @@ select {
   .border-red-right {
     border-right: 0;
   }
+  .search-btn {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+  .search-btn {
+    margin-left: 40%;
+    margin-right: 50%;
+  }
 
   .nav-list-1 {
     display: flex;
