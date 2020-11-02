@@ -251,11 +251,6 @@ select {
     padding-right: 18%;
   }
 
-  .search-btn {
-    margin-left: 50%;
-    margin-right: 50%;
-  }
-
   .nav-list-1 {
     display: flex;
     width: 200px;
@@ -336,10 +331,6 @@ select {
 }
 
 @media (max-width: 1024px) {
-  .search-btn {
-    margin-left: 50%;
-  }
-
   .border-red-right {
     border-right: none;
     border-bottom: 1px solid #d35266;
