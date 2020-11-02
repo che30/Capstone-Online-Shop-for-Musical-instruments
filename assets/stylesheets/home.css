@@ -138,6 +138,10 @@ select {
   width: 98%;
 }
 
+.pd-cat {
+  padding-right: 145px;
+}
+
 .heading-sec {
   font-size: 15px;
 }
@@ -230,6 +234,7 @@ ul li button {
 
 .search-btn {
   height: 45px;
+  border-radius: 8px;
 }
 
 /* SECTION HOT-ADS */
@@ -381,6 +386,10 @@ div > .fa-angle-right {
     border-right: 0;
   }
 
+  .pd-cat {
+    padding-right: 18%;
+  }
+
   .width-100 {
     width: 160px;
   }
@@ -471,6 +480,10 @@ div > .fa-angle-right {
     justify-content: center;
   }
 
+  .pd-cat {
+    padding-right: 77%;
+  }
+
   .width-100 {
     width: 200px;
   }
@@ -508,5 +521,11 @@ div > .fa-angle-right {
 
   .font-s {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .width-25 {
+    width: 300px;
   }
 }

@@ -151,6 +151,10 @@ select {
   font-size: 20px;
 }
 
+.pd-cat {
+  padding-right: 145px;
+}
+
 .border-all-round {
   border: 2px solid black;
 }
@@ -188,6 +192,7 @@ select {
 
 .search-btn {
   height: 45px;
+  border-radius: 8px;
 }
 
 .border-bottom {
@@ -240,6 +245,10 @@ select {
 @media (max-width: 567px) {
   .border-red-right {
     border-right: 0;
+  }
+
+  .pd-cat {
+    padding-right: 18%;
   }
 
   .search-btn {
@@ -347,6 +356,10 @@ select {
     margin-left: 50%;
   }
 
+  .pd-cat {
+    padding-right: 77%;
+  }
+
   .form-post {
     margin-right: 20%;
   }
@@ -368,5 +381,11 @@ select {
 
   .font-s {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .width-25 {
+    width: 300px;
   }
 }
