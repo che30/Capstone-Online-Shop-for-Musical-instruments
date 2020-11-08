@@ -34,8 +34,8 @@
         <ul>
           <li><button class="background-red text-white py-1 px-1 font-gotham-bold ad">POST AN AD</button></li>
         </ul>
-        <ul class="d-flex justify-content-between align-items-baseline">
-          <li class="pr-2 d-none d-md-block d-lg-block"><a href="#">
+        <ul class="d-flex justify-content-between ">
+          <li class="pr-2 d-none d-md-block d-lg-block pt-1"><a href="#">
             <ion-icon class="same-width avatar color-grey text-white" name="person-outline"></ion-icon>
           </a></li>
         <li class="d-none d-md-block d-lg-block"><a class="text-white " href="#">LOGIN </a></li>
@@ -58,27 +58,34 @@
       </div>
       <div class="row  pb-5 mb-5 ml-5">
         <div class="col-12">
-          <form action="/index.html" class="d-lg-flex color-helvetica-grey font-helvetica-light pt-1 justify-content-center form-post align-content-center ">
-            <div class="border-red-right bg-white px-3 pl-2 pt-2 width-25">
-              <label class="color-grey font-helvetica-light pt-1 label-s    "  for="instruments" ></label>
-              <select name="instruments" class="color-helvetica-grey font-gotham-light pt-1 pd-cat" id="instruments" >
-                <option class=" border-none"  > All categories</option>
-                <option class ="order-none" value="Guitar" >Guitar</option>
-                <option  value="Piano">piano</option>
-                <option  value="violin">violin</option>
-                <option  value="saxophone">saxophone</option>
-              </select>
+          <form action="./search.html " class="d-lg-flex justify-content-center">
+            <div class="d-lg-flex justify-content-center form-post align-content-center">
+              <div class="border-red-right bg-white px-3 pl-2  pt-1 width-25 ">
+                <label class="color-grey font-gotham-light pt-2 label-s" for="instruments"></label>
+                <select name="instruments" class="font-helvetica-light color-helvetica-grey pt-1  pd-cat"
+                  id="instruments">
+                  <option class=" font-helvetica-light color-helvetica-grey border-none " value=""> All categories
+                  </option>
+                  <option class=" border-none" value="Guitar">Guitar</option>
+                  <option value="Piano">piano</option>
+                  <option value="violin">violin</option>
+                  <option value="saxophone">saxophone</option>
+                </select>
+              </div>
+              <div class="border-red-right bg-white width-25  px-3 pt-1">
+                <input type="text" class="input-properties-1 text-center " placeholder="what are you searching for?">
+              </div>
+              <div class="bg-white  width-25   ">
+                <input type="text" placeholder="country" class="input-properties-2 text-center pl-1 pt-1">
+              </div>
             </div>
-            <div class="border-red-right bg-white  px-3 pt-1 width-25">
-              <input type="text" class="input-properties-1 " placeholder="what are you searching for?">
+            <div class="mt-2 mt-lg-0 ">
+              <div><button type="submit"
+                class="search-btn pb-1  ml-lg-0  background-black  text-white text-center   font-helvetica-light color-helvetica-grey ">search</button>
             </div>
-            <div class="bg-white  pl-5 pt-1 width-25  pr-5">
-              <input type="text" placeholder="country" class="input-properties-2 pl-1">
             </div>
-            <button type="submit" class="search-btn ml-lg-0  background-black  text-white   font-helvetica-light color-helvetica-grey pb-1 ">search</button>
           </form>
         </div>
-
       </div> 
     </div>
   </section>

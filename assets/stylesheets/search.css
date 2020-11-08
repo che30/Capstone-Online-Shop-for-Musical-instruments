@@ -292,10 +292,6 @@ select {
   .br-g {
     border-right: 1px solid rgb(168, 164, 164);
   }
-
-  .bb-g {
-    border-bottom: 1px solid rgb(168, 164, 164);
-  }
 }
 
 @media (max-width: 768px) {

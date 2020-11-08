@@ -231,6 +231,7 @@ ul li button {
 .search-btn {
   height: 45px;
   border-radius: 8px;
+  width: 100px;
 }
 
 /* SECTION HOT-ADS */
@@ -387,7 +388,7 @@ div > .fa-angle-right {
   }
 
   .pd-cat {
-    padding-right: 18%;
+    padding-right: 13%;
   }
 
   .width-100 {
@@ -395,7 +396,7 @@ div > .fa-angle-right {
   }
 
   .width-100-1 {
-    width: 160px;
+    width: 145px;
   }
 
   .nav-list-1 {
@@ -424,8 +425,7 @@ div > .fa-angle-right {
   }
 
   .search-btn {
-    margin-left: 40%;
-    margin-right: 50%;
+    margin-left: 11%;
   }
 
   .heading-sec {
@@ -498,7 +498,7 @@ div > .fa-angle-right {
   }
 
   .search-btn {
-    margin-left: 50%;
+    margin-left: 40%;
   }
 
   .form-post {
