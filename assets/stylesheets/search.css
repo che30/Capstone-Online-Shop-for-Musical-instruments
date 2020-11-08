@@ -60,7 +60,7 @@ body {
   font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
-.navbar {
+.nav-black {
   background-color: #080707;
   height: 55px;
 }
@@ -260,6 +260,7 @@ select {
     display: flex;
     align-content: center;
     align-items: center;
+    height: 50px;
   }
 
   .form-post {
