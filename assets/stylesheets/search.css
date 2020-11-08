@@ -193,6 +193,7 @@ select {
 .search-btn {
   height: 45px;
   border-radius: 8px;
+  width: 100px;
 }
 
 .border-bottom {
@@ -248,7 +249,7 @@ select {
   }
 
   .pd-cat {
-    padding-right: 18%;
+    padding-right: 13%;
   }
 
   .nav-list-1 {
@@ -323,7 +324,7 @@ select {
   }
 
   .search-btn {
-    margin-left: 40%;
+    margin-left: 15%;
   }
 }
 
@@ -341,7 +342,7 @@ select {
   }
 
   .search-btn {
-    margin-left: 50%;
+    margin-left: 35%;
   }
 
   .pd-cat {

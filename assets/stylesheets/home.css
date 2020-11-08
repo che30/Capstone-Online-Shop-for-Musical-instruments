@@ -265,12 +265,12 @@ div > .fa-angle-right {
   font-size: 30px;
 }
 
-.prev-key-r {
+/* .prev-key-r {
   right: -240px;
   width: 30px;
   border-radius: 80px;
   bottom: 130px;
-}
+} */
 
 .next-prev-0 {
   width: 35px;
@@ -392,7 +392,7 @@ div > .fa-angle-right {
   }
 
   .width-100 {
-    width: 160px;
+    width: 145px;
   }
 
   .width-100-1 {
@@ -436,9 +436,9 @@ div > .fa-angle-right {
     left: -40px;
   }
 
-  .prev-key-r {
+  /* .prev-key-r {
     right: -150px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
