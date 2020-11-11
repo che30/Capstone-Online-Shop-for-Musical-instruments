@@ -176,6 +176,7 @@ select {
   background-image: none;
 }
 
+
 .font-h3 {
   font-size: 15px;
 }
@@ -265,12 +266,12 @@ div > .fa-angle-right {
   font-size: 30px;
 }
 
-/* .prev-key-r {
+ .prev-key-r {
   right: -240px;
   width: 30px;
   border-radius: 80px;
   bottom: 130px;
-} */
+} 
 
 .next-prev-0 {
   width: 35px;
@@ -408,11 +409,6 @@ div > .fa-angle-right {
     font-size: 15px;
   }
 
-  .form-post {
-    margin-left: 0;
-    margin-right: 25%;
-  }
-
   .navbar {
     display: flex;
     align-content: center;
@@ -425,7 +421,7 @@ div > .fa-angle-right {
   }
 
   .search-btn {
-    margin-left: 11%;
+    margin-left: 23%;
   }
 
   .heading-sec {
@@ -436,9 +432,9 @@ div > .fa-angle-right {
     left: -40px;
   }
 
-  /* .prev-key-r {
+   .prev-key-r {
     right: -150px;
-  } */
+  } 
 }
 
 @media (max-width: 768px) {
@@ -498,11 +494,7 @@ div > .fa-angle-right {
   }
 
   .search-btn {
-    margin-left: 40%;
-  }
-
-  .form-post {
-    margin-right: 20%;
+    margin-left: 35%;
   }
 
   .prev-key-l {
@@ -521,11 +513,7 @@ div > .fa-angle-right {
 
   .search-btn {
     margin-left: 50%;
-    margin-right: 50%;
-  }
 
-  .form-post {
-    margin-right: 17%;
   }
 
   .font-s {
