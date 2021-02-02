@@ -23,9 +23,6 @@ This is a capstone project for students at the end of the HTML/CSS module. This 
 5. Install and run a live server plugin on your IDE/Text editor and run it from the root directory.
 
 ## Live Demo
-
-- [Live Demo Link](https://che30.github.io/Online-Shop-for-Musical-instruments/)
-- [Live Demo Video Link](https://www.loom.com/share/e64c08d965744f2aa05447fef479edf7)
  
 
 ## Author
