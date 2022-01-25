@@ -241,6 +241,20 @@ h3 {
   /* margin-top: -100px; */
 }
 
+.less__than {
+  position: relative;
+  left: 20px;
+  bottom: 300px;
+  font-size: 2rem;
+}
+
+.greater__than {
+  position: relative;
+  left: 95%;
+  bottom: 355px;
+  font-size: 2rem;
+}
+
 .heading__four {
   font-size: 1rem;
   margin-left: 140px;
@@ -383,7 +397,7 @@ h3 {
     left: 1px;
   }
 
-  .arrow-direction-right {
+  .arrow-direction-right left: 20px; {
     left: 88%;
   }
 
@@ -410,6 +424,10 @@ h3 {
 
   .footer-copyright {
     flex-direction: column;
+  }
+  .less__than,
+  .greater__than{
+    display: none;
   }
 }
 
@@ -481,15 +499,6 @@ h3 {
     height: 370px;
   }
 
-  /* .purchase__price__color {
-
-  } */
-
-  /*
-  .first__form {
-
-  } */
-
   .grid-container {
     grid-template-columns: 45% 45%;
     grid-gap: 10px;
@@ -502,6 +511,12 @@ h3 {
   .heading__four {
     margin-left: 17px;
     width: 95%;
+  }
+  .less__than{
+    left: 10px;
+  }
+  .greater__than{
+    left: 96.5%;
   }
 }
 
