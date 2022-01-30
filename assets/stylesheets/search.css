@@ -156,7 +156,7 @@ h2{
   grid-template-columns: 40% 60%;
   column-gap: 20px;
   height: 250px;
-  margin-left: 10px;
+  padding-left: 10px;
 }
 .price__button{
   padding: 5px;
