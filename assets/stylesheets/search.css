@@ -78,6 +78,7 @@ body {
 .search__btn {
   border-radius: 10px;
   color: white;
+  background-color: black;
 }
 .nav__items__list{
   width: 80%;
@@ -115,10 +116,6 @@ h2{
 .main__section__one{
   background-color: #d35266;
   height: 190px;
-}
-.search__btn{
-  border-radius: 10px;
-  background-color: black;
 }
 .first__form__content{
   flex-direction: row;
