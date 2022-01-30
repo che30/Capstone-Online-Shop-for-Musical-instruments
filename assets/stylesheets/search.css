@@ -158,9 +158,6 @@ h2{
   height: 250px;
   margin-left: 10px;
 }
-.bg__color__red {
-  background-color:  #d35266;
-}
 .price__button{
   padding: 5px;
 }
@@ -188,6 +185,16 @@ h2{
 }
 .uniform__padding__right{
   padding-right: 4%;
+}
+.page__number{
+  border: 1px solid rgb(184, 181, 181);
+  width: 25px;
+  padding-left: 7px;
+  background-color: white;
+  margin-left: 10px;
+}
+.bg__color__red {
+  background-color:  #d35266;
 }
 /* FOOTER */
 .categories__heading {
