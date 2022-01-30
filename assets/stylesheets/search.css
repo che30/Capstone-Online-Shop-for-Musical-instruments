@@ -186,6 +186,9 @@ h2{
   bottom: 58px;
   
 }
+.uniform__padding__right{
+  padding-right: 4%;
+}
 /* FOOTER */
 .categories__heading {
   border-bottom: 1px solid #d35266;
@@ -290,7 +293,10 @@ h2{
 .footer-copyright {
   flex-direction: column;
 }
-
+.uniform__padding__right{
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
 }
 @media (min-width: 567px) and (max-width: 768px){
     /* body {
