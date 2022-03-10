@@ -215,8 +215,8 @@ h3 {
   padding: 0 27px 0 15px;
   width: 25px;
   height: 45px;
-  bottom: 220px;
-  left: 90%;
+  bottom: 210px;
+  left: 95%;
   text-align: center;
 }
 
@@ -375,6 +375,7 @@ h3 {
 
   .search__btn {
     width: 35%;
+    margin-top: 10px;
   }
 
   .dropdown__zero,
@@ -404,7 +405,7 @@ h3 {
   }
 
   .arrow-direction-right {
-    left: 88%;
+    left: 90%;
   }
 
   .same__size__images {
@@ -477,6 +478,7 @@ h3 {
 
   .search__btn {
     width: 30%;
+    margin-top: 10px;
   }
 
   .dropdown__zero,
