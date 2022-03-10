@@ -182,7 +182,7 @@ h3 {
 }
 
 .same__size__images {
-  width: 550px;
+  width: 100%;
   height: 300px;
 }
 
@@ -408,10 +408,7 @@ h3 {
     left: 90%;
   }
 
-  .same__size__images {
-    width: 620px;
-  }
-
+ 
   .heading__four {
     font-size: 1rem;
     margin-left: 10px;
