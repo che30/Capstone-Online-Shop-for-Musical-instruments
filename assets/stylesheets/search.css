@@ -246,6 +246,13 @@ h2{
   .width__small_purchase_list{
     width: 90px;
   }
+  /* label{
+    font-size: 0.7rem;
+  } */
+  .side__nav{
+   margin-left: auto;
+   margin-right: auto;
+  } 
   .font__on__small{
     font-size: 0.5rem;
   }
@@ -316,6 +323,7 @@ h2{
     /* body {
   display: none;
 }    */
+
   .header__one__contain {
     width: 90%;
     margin-left: auto;
